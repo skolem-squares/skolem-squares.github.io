@@ -344,10 +344,8 @@ height: 100%;
 
   > li {
   display: flex;
-  flex: 0 0 40%;
   align-items: center;
   justify-content: center;
-  width: 100%;
   //margin: .5 * $spacing-unit;
 
   //padding: .2 * $spacing-unit;
@@ -462,7 +460,9 @@ height: 100%;
   margin-bottom: .5 * $spacing-unit;
 
   display: flex;
-  flex-direction: column;
+  flex: 0 0 80%;
+
+  //flex-direction: column;
   //flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -485,7 +485,8 @@ height: 100%;
   margin-bottom: .5 * $spacing-unit;
 
   display: flex;
-  flex-direction: column;
+  flex: 0 0 20%;
+  //flex-direction: column;
   //flex-wrap: wrap;
   align-items: center;
   justify-content: center;

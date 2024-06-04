@@ -13,7 +13,6 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
         {%- if post.text != "" -%}
-          <li>
             <div class="post-wrap">
               <div class="post-text">
                   {{ post.text | escape }}
@@ -27,8 +26,6 @@ layout: default
                 </a>
               </div>
             </div>
-          </li>
-          <li>
             <div class="post-wrap2">
               <div class="post-text">
                   {{ post.subtext | escape }}
@@ -42,7 +39,6 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-      </li>
       {%- endfor -%}
     </ul>
 
