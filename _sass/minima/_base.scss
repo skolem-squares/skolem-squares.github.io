@@ -115,7 +115,8 @@ figure > img {
 }
 
 figcaption {
-  font-size: $small-font-size;
+  @include relative-font-size(.85);
+ 
 }
 
 

@@ -541,7 +541,8 @@ height: 100%;
 }
 
 .post-meta {
-  font-size: $small-font-size;
+  @include relative-font-size(1);
+
   color: $grey-color;
 }
 
