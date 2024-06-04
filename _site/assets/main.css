@@ -520,10 +520,10 @@ table td {
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
+  flex: 1.5 0 50%;
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  max-width: 60%;
 }
 
 .post-wrap2 {
