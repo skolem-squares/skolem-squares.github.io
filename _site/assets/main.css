@@ -278,11 +278,18 @@ table td {
   background-color: #294d4a;
 }
 
+.site-subtitle {
+  font-size: calc(6px + 1vw + 0.5vh);
+  line-height: 12px;
+}
+
 .site-title {
   font-size: calc(21px + 1vw + 0.5vh);
   font-weight: 300;
   line-height: 22.5px;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
+  margin-bottom: 22.5px;
+  margin-top: 30px;
 }
 
 .site-nav {
@@ -345,6 +352,7 @@ table td {
 }
 
 .form-box {
+  font-size: calc(4px + 1vw + 0.5vh);
   padding: 3px;
   width: 85%;
   min-height: 90px;
@@ -372,6 +380,7 @@ table td {
 }
 
 .footer-col-2 {
+  font-size: calc(4px + 1vw + 0.5vh);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -414,7 +423,7 @@ table td {
 .post-list {
   font-size: calc(7.5px + 1vw + 0.5vh);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 0px;
   align-items: center;
@@ -423,9 +432,10 @@ table td {
 }
 .post-list > li {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 95%;
 }
 
@@ -510,11 +520,10 @@ table td {
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
-  flex: 2 1 70%;
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  width: 100%;
+  max-width: 60%;
 }
 
 .post-wrap2 {
@@ -563,7 +572,7 @@ table td {
   align-items: center;
   justify-content: center;
   color: #000000;
-  font-size: calc(8px + 1vw + 0.5vh);
+  font-size: calc(4px + 1vw + 0.5vh);
   text-align: center;
 }
 
