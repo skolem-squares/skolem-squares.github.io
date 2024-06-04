@@ -326,6 +326,8 @@ height: 100%;
 }
 
 .post-list {
+  @include relative-font-size(0.9375);
+ 
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -464,7 +466,7 @@ height: 100%;
   margin-bottom: .5 * $spacing-unit;
 
   display: flex;
-  flex: 0 0 70%;
+  flex: 2 1 70%;
 
   flex-direction: column;
   //flex-wrap: wrap;
@@ -490,13 +492,14 @@ height: 100%;
   margin-bottom: .5 * $spacing-unit;
 
   display: flex;
-  flex: 0 0 20%;
+  //flex: 0 0 20%;
+
   flex-direction: column;
   //flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   //min-height: 30vh;
-  width: 100%;
+  //width: 100%;
 }
 
 

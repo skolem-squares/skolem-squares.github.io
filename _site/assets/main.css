@@ -10,7 +10,7 @@ p {
  * Basic styling
  */
 body {
-  font: 400 16px/1.25 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 8px/1.25 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #000000;
   background-color: #294d4a;
   -webkit-text-size-adjust: 100%;
@@ -62,7 +62,7 @@ div {
  * Figures
  */
 figcaption {
-  font-size: 14px;
+  font-size: 7px;
 }
 
 /**
@@ -100,7 +100,7 @@ a:hover {
  */
 blockquote {
   color: #000000;
-  font-size: 18px;
+  font-size: calc(9px + 1vw + 0.5vh);
   letter-spacing: -1px;
   font-style: italic;
 }
@@ -109,7 +109,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  font-size: calc(7.5px + 1vw + 0.5vh);
   border: 1px solid #666666;
   border-radius: 3px;
   background-color: #eef;
@@ -279,9 +279,9 @@ table td {
 }
 
 .site-title {
-  font-size: 42px;
+  font-size: calc(21px + 1vw + 0.5vh);
   font-weight: 300;
-  line-height: 45px;
+  line-height: 22.5px;
   letter-spacing: -1px;
 }
 
@@ -333,7 +333,7 @@ table td {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: 15px;
+  font-size: calc(7.5px + 1vw + 0.5vh);
   color: #000000;
   transform: translateY(10%);
 }
@@ -404,14 +404,15 @@ table td {
 }
 
 .page-heading {
-  font-size: 32px;
+  font-size: calc(16px + 1vw + 0.5vh);
 }
 
 .post-list-heading {
-  font-size: 28px;
+  font-size: calc(14px + 1vw + 0.5vh);
 }
 
 .post-list {
+  font-size: calc(7.5px + 1vw + 0.5vh);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -509,7 +510,7 @@ table td {
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
-  flex: 0 0 70%;
+  flex: 2 1 70%;
   flex-direction: column;
   align-items: left;
   justify-content: center;
@@ -521,11 +522,9 @@ table td {
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
-  flex: 0 0 20%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .text {
@@ -550,12 +549,12 @@ table td {
 }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 7px;
   color: #000000;
 }
 
 .post-title {
-  font-size: 16px;
+  font-size: calc(8px + 1vw + 0.5vh);
 }
 
 .post-link {
@@ -564,7 +563,7 @@ table td {
   align-items: center;
   justify-content: center;
   color: #000000;
-  font-size: 16px;
+  font-size: calc(8px + 1vw + 0.5vh);
   text-align: center;
 }
 
@@ -573,7 +572,7 @@ table td {
   display: flex;
   align-items: center;
   color: #000000;
-  font-size: 16px;
+  font-size: calc(8px + 1vw + 0.5vh);
   text-align: left;
 }
 
@@ -596,27 +595,27 @@ table td {
   margin: 15px;
 }
 .post-content h2 {
-  font-size: 32px;
+  font-size: calc(16px + 1vw + 0.5vh);
 }
 @media screen and (max-width: 800px) {
   .post-content h2 {
-    font-size: 28px;
+    font-size: calc(14px + 1vw + 0.5vh);
   }
 }
 .post-content h3 {
-  font-size: 26px;
+  font-size: calc(13px + 1vw + 0.5vh);
 }
 @media screen and (max-width: 800px) {
   .post-content h3 {
-    font-size: 22px;
+    font-size: calc(11px + 1vw + 0.5vh);
   }
 }
 .post-content h4 {
-  font-size: 20px;
+  font-size: calc(10px + 1vw + 0.5vh);
 }
 @media screen and (max-width: 800px) {
   .post-content h4 {
-    font-size: 18px;
+    font-size: calc(9px + 1vw + 0.5vh);
   }
 }
 
