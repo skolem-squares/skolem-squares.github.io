@@ -13,14 +13,17 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
         {%- if post.text != "" -%}
+          <li>
             <div class="post-wrap">
               <div class="post-text">
                   {{ post.text | escape }}
               </div>
+              <br>
               <div class="post-foot">
                 <div class="post-text">
                     {{ post.text2 | escape }}
                 </div>
+                <br>
                 <a class="page-link" href="{{ post.url | relative_url }}">
                   {{ post.link | escape }}
                 </a>
@@ -30,6 +33,7 @@ layout: default
               <div class="post-text">
                   {{ post.subtext | escape }}
               </div>
+              <br>
               <div class="post-entry">
                 <img class="med_img" src="{{ post.pic | relative_url }}">
               </div>
@@ -39,6 +43,7 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+      </li>
       {%- endfor -%}
     </ul>
 

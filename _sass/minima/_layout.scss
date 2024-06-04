@@ -29,7 +29,7 @@ border-radius: 100px;
 //max-height: 20%;
 //max-width: 20%;
 max-width: 80%;
-min-width: 65%;
+//min-width: 65%;
 
 
 //border-radius: 100px;
@@ -101,7 +101,7 @@ height: 100%;
   vertical-align: middle;
   margin-bottom: .5 * $spacing-unit;
   //min-width: 50%;
-  width: 85%;
+  width: 85vw;
   //max-height: ;
 
   background-color: $header-footer-color;
@@ -168,7 +168,7 @@ height: 100%;
   // padding: 0 * $spacing-unit;
   text-align: center;
   margin-top: $spacing-unit;
-  width: 85%;
+  width: 85vw;
 }
 
 .contact-list,
@@ -326,7 +326,7 @@ height: 100%;
 
 .post-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   padding: 0px;
 
@@ -346,6 +346,8 @@ height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
   //margin: .5 * $spacing-unit;
 
   //padding: .2 * $spacing-unit;
@@ -451,6 +453,7 @@ height: 100%;
   text-align: left
 }
 
+
 .post-wrap {
   background-color: $post-color;
   border: 1px solid $wrap-border-color;
@@ -460,11 +463,11 @@ height: 100%;
   margin-bottom: .5 * $spacing-unit;
 
   display: flex;
-  flex: 0 0 80%;
+  flex: 0 0 70%;
 
-  //flex-direction: column;
+  flex-direction: column;
   //flex-wrap: wrap;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   //min-height: 30vh;
   //width: fit-content;
@@ -474,6 +477,7 @@ height: 100%;
   //min-width: 30%;
   width: 100%;
 }
+
 
 
 .post-wrap2 {
@@ -486,7 +490,7 @@ height: 100%;
 
   display: flex;
   flex: 0 0 20%;
-  //flex-direction: column;
+  flex-direction: column;
   //flex-wrap: wrap;
   align-items: center;
   justify-content: center;
