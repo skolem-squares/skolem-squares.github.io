@@ -128,9 +128,10 @@ height: 100%;
 .site-nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   background-color: $wrapper_color;
-  width: 90%;
+  width: 80%;
   padding: .25 * $spacing-unit;
 
 }
@@ -347,7 +348,7 @@ height: 100%;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 95%;
   //margin: .5 * $spacing-unit;
 
   //padding: .2 * $spacing-unit;
