@@ -1,0 +1,26 @@
+<header class="site-header" role="banner">
+
+  <div class="header-wrapper">
+
+    <div class="title-item">
+      <img src="/assets/header-pic.png" class="small_img">
+      <div class="web-title">
+          <center class="site-title">Skolem Squares</center>
+          <center>A number puzzle based on Skolem sequences</center>
+     </div>
+      <img src="/assets/header-pic.png" class="small_img">
+    </div>
+
+
+     <div class="site-nav">
+       <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Home Page</a></div>
+       {%- for post in site.posts -%}
+         {%- if post.title != "" -%}
+           <div class="header-icon"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+         {%- endif -%}
+       {%- endfor -%}
+
+    </div>
+
+
+</header>

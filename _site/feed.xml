@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-03T20:48:14-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Skolem Squares</title><subtitle>A sudoku like game #baseurl: /SkolemSquares # the subpath of your site, e.g. /blog</subtitle><entry><title type="html"></title><link href="http://localhost:4000/intro/" rel="alternate" type="text/html" title="" /><published>2024-04-25T00:00:00-04:00</published><updated>2024-04-25T00:00:00-04:00</updated><id>http://localhost:4000/intro</id><content type="html" xml:base="http://localhost:4000/intro/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html"></title><link href="http://localhost:4000/langford_sequences/" rel="alternate" type="text/html" title="" /><published>2024-04-24T00:00:00-04:00</published><updated>2024-04-24T00:00:00-04:00</updated><id>http://localhost:4000/langford_sequences</id><content type="html" xml:base="http://localhost:4000/langford_sequences/"><![CDATA[<p>Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Th Skolem in 1957 and 1958.
+Langford was inspired by watching his kid play with colored blocks.</p>
+
+<p>Skolem sequences:</p>
+
+<p>Langford sequences:</p>
+
+<p>A general formula for Skolem Sequences can be given as follows.
+Two of each number S = [1,2 …n] with the property:
+b_k - a_k = t_k for k = 1,2 …n.</p>
+
+<p>Skolem sequences:
+b_k -a_k = k
+S = [1,2…n]
+T = [1,2…n]</p>
+
+<p>Langford sequences:
+b_k -a_k = k + 1
+S = [1,2…n]
+T = [2…n+1]</p>
+
+<p>In both cases we would say the Langford or Skolem sequence is order n and defect 1, meaning we start with 1 and the largest number is n.</p>
+
+<p>The Langford problem asks the question for which n do Langford (and Skolem) sequences exist.
+<a href="/_pages/skolem_proof/">Click here to see a proof for Skolem sequences!</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Th Skolem in 1957 and 1958. Langford was inspired by watching his kid play with colored blocks.]]></summary></entry><entry><title type="html">Project Design</title><link href="http://localhost:4000/design/" rel="alternate" type="text/html" title="Project Design" /><published>2024-04-23T00:00:00-04:00</published><updated>2024-04-23T00:00:00-04:00</updated><id>http://localhost:4000/puzzle_design</id><content type="html" xml:base="http://localhost:4000/design/"><![CDATA[<div class="page-wrap4">
+In a Skolem sequence each number has a partner. Moving to two dimensions, each number has a partner and both of those numbers must also have another partner. This is only possible if all 4 numbers are lined up to form a square:
+
+The puzzle is built by adding all 4 numbers together as a square, which I will call a Skolem entry.
+</div>
+<p><img src="/assets/flow-chart.png" class="med_img" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[In a Skolem sequence each number has a partner. Moving to two dimensions, each number has a partner and both of those numbers must also have another partner. This is only possible if all 4 numbers are lined up to form a square:]]></summary></entry><entry><title type="html"></title><link href="http://localhost:4000/example/" rel="alternate" type="text/html" title="" /><published>2024-04-20T00:00:00-04:00</published><updated>2024-04-20T00:00:00-04:00</updated><id>http://localhost:4000/example</id><content type="html" xml:base="http://localhost:4000/example/"><![CDATA[<div class="page-wrap">
+Each puzzle has a unique solution that we can find by narrowing down the possibilities for each empty square, each column and the puzzle as a whole.<br />
+In this example 4 is the largest number: <br />
+
+</div>
+<div class="page-wrap">
+
+<img class="example_img" src="/assets/example-page/4-6-6.png" />
+</div>
+
+<div class="page-wrap">
+Like in Sudoku, it's good to start with entries that have few possibilities.
+In the bottom row, the third entry can only be filled with a 3.
+1 and 2 both have black squares where a partner would need to be and 4 goes out of bounds of the puzzle.<br />
+</div>
+<div class="page-wrap">
+
+
+<img class="example_img" src="/assets/example-page/4-6-6-example1.png" />
+</div>
+
+<div class="page-wrap">
+We can also consider the possibilities for any row or column.
+For the first column, there is only one possibility.
+For instance 1s can fit as the top two entries, but 2 cannot fit the bottom two entries.<br />
+</div>
+<div class="page-wrap">
+
+
+<img class="example_img" src="/assets/example-page/4-6-6-example2.png" />
+</div>
+
+<div class="page-wrap">
+Each number has to appear in the puzzle. <br />
+4 being the largest number has to fit somewhere in the corner of the puzzle.
+Looking at the top right corner, we can see that three out of four of our potential spots for a 4 are blocked.
+As a result, there is only one possible place for the 4s to go.<br />
+</div>
+<div class="page-wrap">
+
+
+<img class="example_img" src="/assets/example-page/4-6-6-example3.png" />
+</div>
+
+<div class="page-wrap">
+And finally here is the answer: <br />
+</div>
+<div class="page-wrap">
+
+
+<img class="example_img" src="/assets/example-page/4-6-6-solved.png" />
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Each puzzle has a unique solution that we can find by narrowing down the possibilities for each empty square, each column and the puzzle as a whole. In this example 4 is the largest number:]]></summary></entry><entry><title type="html">Puzzle Printouts</title><link href="http://localhost:4000/puzzle_printout/" rel="alternate" type="text/html" title="Puzzle Printouts" /><published>2024-04-19T00:00:00-04:00</published><updated>2024-04-19T00:00:00-04:00</updated><id>http://localhost:4000/puzzle_printout</id><content type="html" xml:base="http://localhost:4000/puzzle_printout/"><![CDATA[<div class="page-wrap2">
+Largest number: 6 Difficulty: Easy<br />
+<br />
+<img class="med_img" src="/assets/download-page/6-8-8.png" />
+<br />
+<details>
+    <summary>Solution</summary>
+    <p><img src="/assets/download-page/6-8-8-solved.png" class="bigger_img" /></p>
+  </details>
+<br />
+<a href="/assets/download-page/6-8-8-printout.png" download="/assets/download-page/6-8-8-printout.png">
+    <button type="submit">Download</button>
+</a>
+</div>
+
+<div class="page-wrap2">
+Largest number: 7 Difficulty: Medium<br />
+<br />
+<img class="med_img" src="/assets/download-page/7-9-9.png" />
+<br />
+<details>
+    <summary>Solution</summary>
+    <p><img src="/assets/download-page/7-9-9-solved.png" alt="Bk logo" /></p>
+  </details>
+<br />
+<a href="/assets/download-page/7-9-9-printout.png" download="/assets/download-page/7-9-9-printout.png">
+    <button type="submit">Download</button>
+</a>
+</div>
+
+<div class="page-wrap2">
+Largest number: 8 Difficulty: Hard<br />
+<br />
+<img class="med_img" src="/assets/download-page/8-10-10.png" />
+<br />
+<details>
+    <summary>Solution</summary>
+    <p><img src="/assets/download-page/8-10-10-solved.png" alt="Bk logo" /></p>
+  </details>
+<br />
+<a href="/assets/download-page/8-10-10-printout.png" download="/assets/download-page/8-10-10-printout.png">
+    <button type="submit">Download</button>
+</a>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Largest number: 6 Difficulty: Easy Solution Download]]></summary></entry><entry><title type="html">Skolem Art</title><link href="http://localhost:4000/jekyll/update/2024/04/17/art.html" rel="alternate" type="text/html" title="Skolem Art" /><published>2024-04-17T00:00:00-04:00</published><updated>2024-04-17T00:00:00-04:00</updated><id>http://localhost:4000/jekyll/update/2024/04/17/art</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/04/17/art.html"><![CDATA[<div class="page-wrap-text">
+  Skolem square puzzles are prevented from having horizontal, vertical or diagonal symmetry. However, I found that when I allowed for symmetry the result could be visually pleasing. I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.
+
+  Insert matplotlib colorscheme pic
+
+  [Add numbers to the Skolem squares](/_pages/puzzle_art_with_numbers/)
+  <a class="page-link" href="/_pages/puzzle_art_with_numbers/">puzzles with numbers</a>
+
+</div>
+
+<div class="page-wrap-art">
+  <img class="medsmall" src="/assets/art-page/pretty-puzzle-twilight.png" />
+
+  <img class="medsmall" src="/assets/art-page/pretty-puzzle-plasma.png" />
+
+  <img class="medsmall" src="/assets/art-page/pretty-puzzle-Spectral.png" />
+</div>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Skolem square puzzles are prevented from having horizontal, vertical or diagonal symmetry. However, I found that when I allowed for symmetry the result could be visually pleasing. I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.]]></summary></entry><entry><title type="html">About Me</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="About Me" /><published>2024-04-13T00:00:00-04:00</published><updated>2024-04-13T00:00:00-04:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<div class="page-wrap">
+<br />
+<img src="/assets/pic-of-me.jpg" />
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>

@@ -1,0 +1,12 @@
+---
+layout: page
+title: About Me   
+permalink: /aboutme/
+link: Click here for the backstory of this project!
+text: "" 
+pic: /assets/about-me.png
+---
+<div class="page-wrap">
+<br>
+<img src="/assets/pic-of-me.jpg">
+</div>
