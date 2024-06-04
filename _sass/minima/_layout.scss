@@ -466,12 +466,13 @@ height: 100%;
   //flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  min-height: 30vh;
+  //min-height: 30vh;
   //width: fit-content;
   // justify-content: space-between;
   // max-width: calc(100vw - (#{$spacing-unit} * 40));
  // max-width: 40%;
   //min-width: 30%;
+  width: 100%;
 }
 
 
@@ -488,7 +489,8 @@ height: 100%;
   //flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  min-height: 30vh;
+  //min-height: 30vh;
+  width: 100%;
 }
 
 
