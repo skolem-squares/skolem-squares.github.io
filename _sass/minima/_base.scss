@@ -8,10 +8,6 @@ dl, dd, ol, ul, figure {
   //padding: 0;
 }
 
-@mixin relative-font-size($ratio) {
-  font-size: calc($base-font-size * $ratio + 1vw + .5vh);
-}
-
 
 details {
     //display: flex;

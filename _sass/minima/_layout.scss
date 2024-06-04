@@ -640,8 +640,4 @@ height: 100%;
   }
 }
 
-@mixin relative-font-size($ratio) {
-  font-size: calc($base-font-size * $ratio + 1vw + .5vh);
-}
-
 
