@@ -10,7 +10,7 @@ p {
  * Basic styling
  */
 body {
-  font: 400 12px/1.25 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 16px/1.25 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #000000;
   background-color: #294d4a;
   -webkit-text-size-adjust: 100%;
@@ -62,7 +62,7 @@ div {
  * Figures
  */
 figcaption {
-  font-size: 10.5px;
+  font-size: 14px;
 }
 
 /**
@@ -100,7 +100,7 @@ a:hover {
  */
 blockquote {
   color: #000000;
-  font-size: 13.5px;
+  font-size: 18px;
   letter-spacing: -1px;
   font-style: italic;
 }
@@ -109,7 +109,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 11.25px;
+  font-size: 15px;
   border: 1px solid #666666;
   border-radius: 3px;
   background-color: #eef;
@@ -232,6 +232,7 @@ table td {
 
 .med_img {
   max-width: 80%;
+  min-width: 65%;
 }
 
 .example_img {
@@ -279,9 +280,9 @@ table td {
 }
 
 .site-title {
-  font-size: 31.5px;
+  font-size: 42px;
   font-weight: 300;
-  line-height: 33.75px;
+  line-height: 45px;
   letter-spacing: -1px;
 }
 
@@ -332,7 +333,7 @@ table td {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: 11.25px;
+  font-size: 15px;
   color: #000000;
   transform: translateY(10%);
 }
@@ -403,11 +404,11 @@ table td {
 }
 
 .page-heading {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .post-list-heading {
-  font-size: 21px;
+  font-size: 28px;
 }
 
 .post-list {
@@ -424,7 +425,7 @@ table td {
   flex: 0 0 40%;
   align-items: center;
   justify-content: center;
-  margin: 15px;
+  width: 100%;
 }
 
 .wrap-wrap {
@@ -511,7 +512,7 @@ table td {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 30vh;
+  width: 100%;
 }
 
 .post-wrap2 {
@@ -522,7 +523,7 @@ table td {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 30vh;
+  width: 100%;
 }
 
 .text {
@@ -547,12 +548,12 @@ table td {
 }
 
 .post-meta {
-  font-size: 10.5px;
+  font-size: 14px;
   color: #000000;
 }
 
 .post-title {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .post-link {
@@ -561,7 +562,7 @@ table td {
   align-items: center;
   justify-content: center;
   color: #000000;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -570,7 +571,7 @@ table td {
   display: flex;
   align-items: center;
   color: #000000;
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -593,27 +594,27 @@ table td {
   margin: 15px;
 }
 .post-content h2 {
-  font-size: 24px;
+  font-size: 32px;
 }
 @media screen and (max-width: 800px) {
   .post-content h2 {
-    font-size: 21px;
+    font-size: 28px;
   }
 }
 .post-content h3 {
-  font-size: 19.5px;
+  font-size: 26px;
 }
 @media screen and (max-width: 800px) {
   .post-content h3 {
-    font-size: 16.5px;
+    font-size: 22px;
   }
 }
 .post-content h4 {
-  font-size: 15px;
+  font-size: 20px;
 }
 @media screen and (max-width: 800px) {
   .post-content h4 {
-    font-size: 13.5px;
+    font-size: 18px;
   }
 }
 
