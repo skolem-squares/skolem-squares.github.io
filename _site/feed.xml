@@ -1,28 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-04T22:28:24-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Skolem Squares</title><subtitle>A sudoku like game #baseurl: /SkolemSquares # the subpath of your site, e.g. /blog</subtitle><entry><title type="html"></title><link href="http://localhost:4000/intro/" rel="alternate" type="text/html" title="" /><published>2024-04-25T00:00:00-04:00</published><updated>2024-04-25T00:00:00-04:00</updated><id>http://localhost:4000/intro</id><content type="html" xml:base="http://localhost:4000/intro/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html"></title><link href="http://localhost:4000/langford_sequences/" rel="alternate" type="text/html" title="" /><published>2024-04-24T00:00:00-04:00</published><updated>2024-04-24T00:00:00-04:00</updated><id>http://localhost:4000/langford_sequences</id><content type="html" xml:base="http://localhost:4000/langford_sequences/"><![CDATA[<p>Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Th Skolem in 1957 and 1958.
-Langford was inspired by watching his kid play with colored blocks.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-04T23:22:39-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Skolem Squares</title><subtitle>A sudoku like game #baseurl: /SkolemSquares # the subpath of your site, e.g. /blog # baseurl: &quot;&quot; # the subpath of your site, e.g. /blog</subtitle><entry><title type="html"></title><link href="http://localhost:4000/intro/" rel="alternate" type="text/html" title="" /><published>2024-04-25T00:00:00-04:00</published><updated>2024-04-25T00:00:00-04:00</updated><id>http://localhost:4000/intro</id><content type="html" xml:base="http://localhost:4000/intro/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html"></title><link href="http://localhost:4000/langford_sequences/" rel="alternate" type="text/html" title="" /><published>2024-04-24T00:00:00-04:00</published><updated>2024-04-24T00:00:00-04:00</updated><id>http://localhost:4000/langford_sequences</id><content type="html" xml:base="http://localhost:4000/langford_sequences/"><![CDATA[<div>
+Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Th Skolem in 1957 and 1958.
+Langford was inspired by watching his kid play with colored blocks.
 
-<p>Skolem sequences:</p>
+Skolem sequences:
 
-<p>Langford sequences:</p>
+Langford sequences:
 
-<p>A general formula for Skolem Sequences can be given as follows.
-Two of each number S = [1,2 …n] with the property:
-b_k - a_k = t_k for k = 1,2 …n.</p>
+A general formula for Skolem Sequences can be given as follows.
+Two of each number S = [1,2 ...n] with the property:
+b_k - a_k = t_k for k = 1,2 ...n. 
 
-<p>Skolem sequences:
+Skolem sequences:
 b_k -a_k = k
-S = [1,2…n]
-T = [1,2…n]</p>
+S = [1,2...n]
+T = [1,2...n]
 
-<p>Langford sequences:
+Langford sequences:
 b_k -a_k = k + 1
-S = [1,2…n]
-T = [2…n+1]</p>
+S = [1,2...n]
+T = [2...n+1]
 
-<p>In both cases we would say the Langford or Skolem sequence is order n and defect 1, meaning we start with 1 and the largest number is n.</p>
+In both cases we would say the Langford or Skolem sequence is order n and defect 1, meaning we start with 1 and the largest number is n.
 
-<p>The Langford problem asks the question for which n do Langford (and Skolem) sequences exist.
-<a href="/_pages/skolem_proof/">Click here to see a proof for Skolem sequences!</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Th Skolem in 1957 and 1958. Langford was inspired by watching his kid play with colored blocks.]]></summary></entry><entry><title type="html">Project Design</title><link href="http://localhost:4000/design/" rel="alternate" type="text/html" title="Project Design" /><published>2024-04-23T00:00:00-04:00</published><updated>2024-04-23T00:00:00-04:00</updated><id>http://localhost:4000/puzzle_design</id><content type="html" xml:base="http://localhost:4000/design/"><![CDATA[<div class="page-wrap4">
+The Langford problem asks the question for which n do Langford (and Skolem) sequences exist.
+</div>
+<p><a class="page-link" href="/_pages/skolem_proof/">Click here to see a proof for Skolem sequences!</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Th Skolem in 1957 and 1958. Langford was inspired by watching his kid play with colored blocks.]]></summary></entry><entry><title type="html">Project Design</title><link href="http://localhost:4000/design/" rel="alternate" type="text/html" title="Project Design" /><published>2024-04-23T00:00:00-04:00</published><updated>2024-04-23T00:00:00-04:00</updated><id>http://localhost:4000/puzzle_design</id><content type="html" xml:base="http://localhost:4000/design/"><![CDATA[<div class="page-wrap4">
 In a Skolem sequence each number has a partner. Moving to two dimensions, each number has a partner and both of those numbers must also have another partner. This 4 number set of partners forms the corners of a square with side length equal to the number's values: 
 </div>
 
@@ -132,21 +134,17 @@ Largest number: 8 Difficulty: Hard<br />
 </a>
 </div>]]></content><author><name></name></author><summary type="html"><![CDATA[Largest number: 6 Difficulty: Easy Solution Download]]></summary></entry><entry><title type="html">Skolem Art</title><link href="http://localhost:4000/jekyll/update/2024/04/17/art.html" rel="alternate" type="text/html" title="Skolem Art" /><published>2024-04-17T00:00:00-04:00</published><updated>2024-04-17T00:00:00-04:00</updated><id>http://localhost:4000/jekyll/update/2024/04/17/art</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/04/17/art.html"><![CDATA[<div class="page-wrap-text">
   Skolem square puzzles are prevented from having horizontal, vertical or diagonal symmetry. However, I found that when I allowed for symmetry the result could be visually pleasing. I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.
-
-  Insert matplotlib colorscheme pic
-
-  [Add numbers to the Skolem squares](/_pages/puzzle_art_with_numbers/)
-  <a class="page-link" href="/_pages/puzzle_art_with_numbers/">puzzles with numbers</a>
+<a class="page-link" href="/_pages/puzzle_art_with_numbers/">Click here to view the puzzles with numbers.</a>
 
 </div>
 
 <div class="page-wrap-art">
-  <img class="medsmall" src="/assets/art-page/pretty-puzzle-twilight.png" />
+  <img class="medsmall_img" src="/assets/art-page/pretty-puzzle-twilight.png" />
 
-  <img class="medsmall" src="/assets/art-page/pretty-puzzle-plasma.png" />
+  <img class="medsmall_img" src="/assets/art-page/pretty-puzzle-plasma.png" />
 
-  <img class="medsmall" src="/assets/art-page/pretty-puzzle-Spectral.png" />
-</div>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Skolem square puzzles are prevented from having horizontal, vertical or diagonal symmetry. However, I found that when I allowed for symmetry the result could be visually pleasing. I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.]]></summary></entry><entry><title type="html">About Me</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="About Me" /><published>2024-04-13T00:00:00-04:00</published><updated>2024-04-13T00:00:00-04:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<div class="page-wrap">
+  <img class="medsmall_img" src="/assets/art-page/pretty-puzzle-Spectral.png" />
+</div>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Skolem square puzzles are prevented from having horizontal, vertical or diagonal symmetry. However, I found that when I allowed for symmetry the result could be visually pleasing. I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on. Click here to view the puzzles with numbers.]]></summary></entry><entry><title type="html">About Me</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="About Me" /><published>2024-04-13T00:00:00-04:00</published><updated>2024-04-13T00:00:00-04:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<div class="page-wrap">
 <br />
 <img src="/assets/pic-of-me.jpg" />
 </div>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
