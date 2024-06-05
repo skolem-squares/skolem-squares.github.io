@@ -22,4 +22,4 @@ Hooked skolem sequences can have 0s or empty spaces: 41134030
 
 The Langford problem asks the question for which n do Langford (and Skolem) sequences exist.
 </div>
-<a class="page-link" href="{{ "/_pages/skolem_proof/" | relative_url }}">{{ "Click here to see a proof for Skolem sequences!" | escape }}</a>
+<a class="page-link" href="{{ "/pages/skolem_proof/" | relative_url }}">{{ "Click here to see a proof for Skolem sequences!" | escape }}</a>
