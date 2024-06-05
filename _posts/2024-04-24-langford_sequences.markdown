@@ -6,29 +6,19 @@ permalink: /langford_sequences/
 pic: /assets/41134232.png
 link: The mathematics of Skolem sequences and Langford sequences.
 ---
-<div>
+<div class="page-wrap4">
 Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Th Skolem in 1957 and 1958.
 Langford was inspired by watching his kid play with colored blocks.
 
-Skolem sequences:
+Skolem sequences: 41134232, more examples
 
-Langford sequences:
+Langford sequences: 41312432, more examples
 
-A general formula for Skolem Sequences can be given as follows.
-Two of each number S = [1,2 ...n] with the property:
-b_k - a_k = t_k for k = 1,2 ...n. 
-
-Skolem sequences:
-b_k -a_k = k
-S = [1,2...n]
-T = [1,2...n]
-
-Langford sequences:
-b_k -a_k = k + 1
-S = [1,2...n]
-T = [2...n+1]
-
+</div>
+<img src="/assets/definition.png">
+<div class="page-wrap4">
 In both cases we would say the Langford or Skolem sequence is order n and defect 1, meaning we start with 1 and the largest number is n.
+Hooked skolem sequences can have 0s or empty spaces: 41134030
 
 The Langford problem asks the question for which n do Langford (and Skolem) sequences exist.
 </div>
