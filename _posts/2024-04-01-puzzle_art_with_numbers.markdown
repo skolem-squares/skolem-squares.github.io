@@ -2,8 +2,6 @@
 layout: post
 title: ""
 text: ""
-subtext: assigned to each number.
-categories: jekyll update
 pic: /assets/pretty-puzzle-twilight.png
 permalink: /puzzle_art_with_numbers/
 ---
