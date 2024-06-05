@@ -19,6 +19,8 @@ details {
 
 
 button {
+@include relative-font-size(.5);
+
 }
 
 form {
@@ -35,6 +37,9 @@ form {
 p {
   vertical-align: middle;
   text-align: center;
+  @include relative-font-size(1);
+
+
    // max-width: 33%;
 }
 
@@ -108,6 +113,8 @@ img {
 
 div {
   vertical-align: middle;
+  @include relative-font-size(1);
+ 
   border-radius: 25px;
 }
 

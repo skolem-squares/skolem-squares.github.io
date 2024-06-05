@@ -1,9 +1,14 @@
 /**
  * Reset some basic elements
  */
+button {
+  font-size: calc(4px + 1vw + 0.5vh);
+}
+
 p {
   vertical-align: middle;
   text-align: center;
+  font-size: calc(8px + 1vw + 0.5vh);
 }
 
 /**
@@ -55,6 +60,7 @@ img {
 
 div {
   vertical-align: middle;
+  font-size: calc(8px + 1vw + 0.5vh);
   border-radius: 25px;
 }
 
@@ -518,7 +524,6 @@ table td {
   border: 1px solid #294d4a;
   padding: 15px;
   margin-top: 15px;
-  margin-bottom: 15px;
   display: flex;
   flex: 1.5 0 50%;
   flex-direction: column;
@@ -527,11 +532,8 @@ table td {
 }
 
 .post-wrap2 {
-  padding: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 7.5px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
