@@ -44,7 +44,7 @@ header_pages:
   - about.md
 
 include:
-    - _pages
+    - _pages/
 #sass:
 #  sass_dir: _sass
 #  style: compressed
