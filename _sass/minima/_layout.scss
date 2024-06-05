@@ -465,10 +465,7 @@ height: 100%;
 
 .flow-chart {
   display: flex;
-  width: 80%;
-  flex-wrap: wrap;
-  padding: .25 * $spacing-unit;
-  margin: .25 * $spacing-unit;
+  width: 100%;
   vertical-align: middle;
   justify-content: center;
 }

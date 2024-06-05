@@ -520,10 +520,7 @@ table td {
 
 .flow-chart {
   display: flex;
-  width: 80%;
-  flex-wrap: wrap;
-  padding: 7.5px;
-  margin: 7.5px;
+  width: 100%;
   vertical-align: middle;
   justify-content: center;
 }
