@@ -8,7 +8,7 @@
 //max-width: 20%;
 //max-height: 20%;
 //max-width: 20%;
-max-width: 20%;
+max-width: 15%;
 border-radius: 100px;
 
 }
@@ -73,7 +73,7 @@ height: 100%;
   display: flex;
   background-color: $wrapper_color;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-grow: 1;
 //margin: 5px auto;
 //max-width: 33%;
@@ -105,7 +105,9 @@ height: 100%;
 
   text-align: center;
   vertical-align: middle;
-  margin-bottom: .5 * $spacing-unit;
+  padding-bottom: .5 * $spacing-unit;
+  //padding-bottom: .5 * $spacing-unit;
+
   //min-width: 50%;
   width: 85vw;
   //max-height: ;
@@ -147,8 +149,8 @@ height: 100%;
   align-items: center;
   justify-content: space-around;
   background-color: $wrapper_color;
-  width: 80%;
-  padding: .25 * $spacing-unit;
+  width: 100%;
+  //padding: .25 * $spacing-unit;
 
 }
   //float: right;
@@ -356,6 +358,7 @@ height: 100%;
   //width: 100%;
   //margin: none;
   margin: 5px auto;
+  margin-top: 2 * $spacing-unit;
 
   //align-items: flex-start;
 
@@ -371,6 +374,8 @@ height: 100%;
   justify-content: center;
   flex-wrap: wrap;
   width: 95%;
+  margin-bottom: calc(2 * $spacing-unit + 4vw);
+
   //margin: .5 * $spacing-unit;
 
   //padding: .2 * $spacing-unit;
@@ -496,8 +501,11 @@ height: 100%;
   border: 1px solid $wrap-border-color;
 
   padding: .5 *  $spacing-unit;
-  margin-top: 1 * $spacing-unit;
-  //margin-bottom: .5 * $spacing-unit;
+  //margin-top: 1 * $spacing-unit;
+  margin-bottom: .5 * $spacing-unit;
+
+  //margin-top: 1 * $spacing-unit;
+
 
   display: flex;
   flex: 1.5 0 50%;
@@ -512,7 +520,7 @@ height: 100%;
   // max-width: calc(100vw - (#{$spacing-unit} * 40));
  // max-width: 40%;
   //min-width: 30%;
-  //max-width: 60%;
+  max-width: 65%;
 }
 
 
@@ -522,7 +530,7 @@ height: 100%;
   //border: 1px solid $wrap-border-color;
 
   //padding: .5 *  $spacing-unit;
-  margin-top: .25 * $spacing-unit;
+  //margin-top: .25 * $spacing-unit;
   //margin-bottom: .5 * $spacing-unit;
 
   display: flex;
