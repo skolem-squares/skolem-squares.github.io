@@ -13,10 +13,12 @@
 
 
      <div class="site-nav">
-       <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Home Page</a></div>
-       {%- for post in site.posts -%}
+      {%- for post in site.posts -%}
          {%- if post.title != "" -%}
            <div class="header-icon"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+         {%- endif -%}
+         {%- if post.title == "Skolem Puzzles" -%}
+           <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Home Page</a></div>
          {%- endif -%}
        {%- endfor -%}
 

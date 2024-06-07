@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Puzzle Printouts 
+title: Skolem Puzzles 
 text: Puzzles to print out and try!
 permalink: /puzzle_printout/
 pic: /assets/8-10-10-puzzle-small.png

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project Design 
+title: ""
 text: ""
 permalink: /design/
 link: Click here to see more information on how the puzzle was designed.

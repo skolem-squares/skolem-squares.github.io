@@ -12,7 +12,7 @@ link: Click here to see more Skolem art!
 <div class="page-wrap-text">
   Skolem square puzzles are prevented from having horizontal, vertical or diagonal symmetry. However, I found that when I allowed for symmetry the result could be visually pleasing. I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.
 
-<img class="medsmall" src="/assets/colorscheme.png">
+<img class="medsmall" src="/assets/colormap.jpeg">
 
 <a class="page-link" href="{{ "/puzzle_art_with_numbers/" | relative_url }}">{{ "Click here to view the puzzles with numbers." | escape }}</a>
 

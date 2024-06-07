@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me   
+title: Background   
 permalink: /aboutme/
 link: Click here for the backstory of this project!
 text: "" 
