@@ -26,12 +26,13 @@ Skolem sequences are similar, indexing at 0 instead of 1 for the numbers separat
 A pattern emerges, for both Skolem and Langford sequences if <span class="math inline"><em>n</em></span> is divisible by 4 then solutions exist. Langford sequences also appear to have solutions if after dividing <span class="math inline"><em>n</em></span> by 4 there is a remainder of 3 and Skolem sequences have solutions if the remainder is 1.
 </p>
 <p>
-To solve Langford’s problem conclusively however, we need to show that this pattern will be true for any <span class="math inline"><em>n</em> ∈ ℕ</span>. <a href="https://skolem-squares.github.io/skolem_proof/">
+To solve Langford’s problem conclusively however, we need to show that this pattern will be true for any <span class="math inline"><em>n</em> ∈ ℕ</span>. <a href="/skolem_proof/">
 Here is a solution for Skolem Sequences</a>. Langford sequences can be solved in a very similar manner.
 </p>
-<p style="text-align: center;">
+<p>
 <strong>Definition:</strong> Langford and Skolem sequences can both be generalized as follows:
-Two of each number <span class="math inline"><em>S</em> = [1, 2...<em>n</em>]</span> with the property: <span class="math inline"><em>y</em><sub><em>i</em></sub> = <em>x</em><sub><em>i</em></sub> + <em>t</em><sub><em>i</em></sub></span> for <span class="math inline"><em>i</em> = 1, 2...<em>n</em>.</span>
+Two of each number <span class="math inline"><em>S</em> = [1, 2...<em>n</em>]
+</span> with the property: <span class="math inline"><em>y</em><sub><em>i</em></sub> = <em>x</em><sub><em>i</em></sub> + <em>t</em><sub><em>i</em></sub></span> for <span class="math inline"><em>i</em> = 1, 2...<em>n</em>.</span>
 Langford sequences: <span class="math inline"><em>y</em><sub><em>i</em></sub> = <em>x</em><sub><em>i</em></sub> + <em>i</em> + 1</span>, <span class="math inline"><em>S</em> = [1, 2...<em>n</em>]</span> and <span class="math inline"><em>i</em> = 2...<em>n</em> + 1</span>
 Skolem sequences: <span class="math inline"><em>y</em><sub><em>i</em></sub> = <em>x</em><sub><em>i</em></sub> + <em>i</em></span>, <span class="math inline"><em>S</em> = [1, 2...<em>n</em>]</span> and <span class="math inline"><em>i</em> = 1, 2...<em>n</em></span>
 </p>

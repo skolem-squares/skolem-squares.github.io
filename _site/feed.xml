@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-08T22:44:04-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Skolem Squares</title><subtitle>A sudoku like game #baseurl: /SkolemSquares # the subpath of your site, e.g. /blog # baseurl: &quot;&quot; # the subpath of your site, e.g. /blog</subtitle><entry><title type="html"></title><link href="http://localhost:4000/intro/" rel="alternate" type="text/html" title="" /><published>2024-04-25T00:00:00-04:00</published><updated>2024-04-25T00:00:00-04:00</updated><id>http://localhost:4000/intro</id><content type="html" xml:base="http://localhost:4000/intro/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Skolem Math</title><link href="http://localhost:4000/langford_sequences/" rel="alternate" type="text/html" title="Skolem Math" /><published>2024-04-24T00:00:00-04:00</published><updated>2024-04-24T00:00:00-04:00</updated><id>http://localhost:4000/langford_sequences</id><content type="html" xml:base="http://localhost:4000/langford_sequences/"><![CDATA[<div class="math-wrap">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-09T00:12:08-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Skolem Squares</title><subtitle>A sudoku like game #baseurl: /SkolemSquares # the subpath of your site, e.g. /blog # baseurl: &quot;&quot; # the subpath of your site, e.g. /blog</subtitle><entry><title type="html"></title><link href="http://localhost:4000/intro/" rel="alternate" type="text/html" title="" /><published>2024-04-25T00:00:00-04:00</published><updated>2024-04-25T00:00:00-04:00</updated><id>http://localhost:4000/intro</id><content type="html" xml:base="http://localhost:4000/intro/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Skolem Math</title><link href="http://localhost:4000/langford_sequences/" rel="alternate" type="text/html" title="Skolem Math" /><published>2024-04-24T00:00:00-04:00</published><updated>2024-04-24T00:00:00-04:00</updated><id>http://localhost:4000/langford_sequences</id><content type="html" xml:base="http://localhost:4000/langford_sequences/"><![CDATA[<div class="math-wrap">
 <p>Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Thoralf Skolem in 1957 and 1958. Langford was inspired by watching his kid play with colored blocks, observing that there was one block between the red blocks, two blocks between the blue blocks and three blocks between the green blocks:</p>
 <img src="/assets/blocks.png" />
 <p>
@@ -18,12 +18,13 @@ Skolem sequences are similar, indexing at 0 instead of 1 for the numbers separat
 A pattern emerges, for both Skolem and Langford sequences if <span class="math inline"><em>n</em></span> is divisible by 4 then solutions exist. Langford sequences also appear to have solutions if after dividing <span class="math inline"><em>n</em></span> by 4 there is a remainder of 3 and Skolem sequences have solutions if the remainder is 1.
 </p>
 <p>
-To solve Langford’s problem conclusively however, we need to show that this pattern will be true for any <span class="math inline"><em>n</em> ∈ ℕ</span>. <a href="https://skolem-squares.github.io/skolem_proof/">
+To solve Langford’s problem conclusively however, we need to show that this pattern will be true for any <span class="math inline"><em>n</em> ∈ ℕ</span>. <a href="/skolem_proof/">
 Here is a solution for Skolem Sequences</a>. Langford sequences can be solved in a very similar manner.
 </p>
-<p style="text-align: center;">
+<p>
 <strong>Definition:</strong> Langford and Skolem sequences can both be generalized as follows:
-Two of each number <span class="math inline"><em>S</em> = [1, 2...<em>n</em>]</span> with the property: <span class="math inline"><em>y</em><sub><em>i</em></sub> = <em>x</em><sub><em>i</em></sub> + <em>t</em><sub><em>i</em></sub></span> for <span class="math inline"><em>i</em> = 1, 2...<em>n</em>.</span>
+Two of each number <span class="math inline"><em>S</em> = [1, 2...<em>n</em>]
+</span> with the property: <span class="math inline"><em>y</em><sub><em>i</em></sub> = <em>x</em><sub><em>i</em></sub> + <em>t</em><sub><em>i</em></sub></span> for <span class="math inline"><em>i</em> = 1, 2...<em>n</em>.</span>
 Langford sequences: <span class="math inline"><em>y</em><sub><em>i</em></sub> = <em>x</em><sub><em>i</em></sub> + <em>i</em> + 1</span>, <span class="math inline"><em>S</em> = [1, 2...<em>n</em>]</span> and <span class="math inline"><em>i</em> = 2...<em>n</em> + 1</span>
 Skolem sequences: <span class="math inline"><em>y</em><sub><em>i</em></sub> = <em>x</em><sub><em>i</em></sub> + <em>i</em></span>, <span class="math inline"><em>S</em> = [1, 2...<em>n</em>]</span> and <span class="math inline"><em>i</em> = 1, 2...<em>n</em></span>
 </p>
@@ -105,14 +106,11 @@ And finally here is the answer: <br />
 <img class="example_img" src="/assets/example-page/4-6-6-solved.png" />
 </div>]]></content><author><name></name></author><summary type="html"><![CDATA[Each puzzle has a unique solution that we can find by narrowing down the possibilities for each empty square, each column and the puzzle as a whole. In this example 4 is the largest number:]]></summary></entry><entry><title type="html">Skolem Puzzles</title><link href="http://localhost:4000/puzzle_printout/" rel="alternate" type="text/html" title="Skolem Puzzles" /><published>2024-04-19T00:00:00-04:00</published><updated>2024-04-19T00:00:00-04:00</updated><id>http://localhost:4000/puzzle_printout</id><content type="html" xml:base="http://localhost:4000/puzzle_printout/"><![CDATA[<div class="page-wrap2">
 Largest number: 6 Difficulty: Easy<br />
-<br />
 <img class="med_img" src="/assets/download-page/6-8-8.png" />
-<br />
 <details>
     <summary>Solution</summary>
     <p><img src="/assets/download-page/6-8-8-solved.png" class="bigger_img" /></p>
   </details>
-<br />
 <a href="/assets/download-page/6-8-8-printout.png" download="/assets/download-page/6-8-8-printout.png">
     <button type="submit">Download</button>
 </a>
@@ -120,14 +118,11 @@ Largest number: 6 Difficulty: Easy<br />
 
 <div class="page-wrap2">
 Largest number: 7 Difficulty: Medium<br />
-<br />
 <img class="med_img" src="/assets/download-page/7-9-9.png" />
-<br />
 <details>
     <summary>Solution</summary>
     <p><img src="/assets/download-page/7-9-9-solved.png" alt="Bk logo" /></p>
   </details>
-<br />
 <a href="/assets/download-page/7-9-9-printout.png" download="/assets/download-page/7-9-9-printout.png">
     <button type="submit">Download</button>
 </a>
@@ -135,18 +130,15 @@ Largest number: 7 Difficulty: Medium<br />
 
 <div class="page-wrap2">
 Largest number: 8 Difficulty: Hard<br />
-<br />
 <img class="med_img" src="/assets/download-page/8-10-10.png" />
-<br />
 <details>
     <summary>Solution</summary>
     <p><img src="/assets/download-page/8-10-10-solved.png" alt="Bk logo" /></p>
   </details>
-<br />
 <a href="/assets/download-page/8-10-10-printout.png" download="/assets/download-page/8-10-10-printout.png">
     <button type="submit">Download</button>
 </a>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Largest number: 6 Difficulty: Easy Solution Download]]></summary></entry><entry><title type="html">Background</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="Background" /><published>2024-04-13T00:00:00-04:00</published><updated>2024-04-13T00:00:00-04:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<div class="page-wrap">
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Largest number: 6 Difficulty: Easy Solution Download]]></summary></entry><entry><title type="html">Project background</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="Project background" /><published>2024-04-13T00:00:00-04:00</published><updated>2024-04-13T00:00:00-04:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<div class="page-wrap">
 <br />
 <img src="/assets/pic-of-me.jpg" />
 </div>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Skolem Art</title><link href="http://localhost:4000/puzzle_art/" rel="alternate" type="text/html" title="Skolem Art" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-04-11T00:00:00-04:00</updated><id>http://localhost:4000/art</id><content type="html" xml:base="http://localhost:4000/puzzle_art/"><![CDATA[<div class="page-wrap-text">
@@ -164,7 +156,9 @@ Largest number: 8 Difficulty: Hard<br />
   <img class="medsmall_img" src="/assets/art-page/pretty-puzzle-plasma.png" />
 
   <img class="medsmall_img" src="/assets/art-page/pretty-puzzle-Spectral.png" />
-</div>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Skolem square puzzles are prevented from having horizontal, vertical or diagonal symmetry. However, I found that when I allowed for symmetry the result could be visually pleasing. I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.]]></summary></entry><entry><title type="html"></title><link href="http://localhost:4000/skolem_proof/" rel="alternate" type="text/html" title="" /><published>2024-04-02T00:00:00-04:00</published><updated>2024-04-02T00:00:00-04:00</updated><id>http://localhost:4000/skolem_proof</id><content type="html" xml:base="http://localhost:4000/skolem_proof/"><![CDATA[<div class="math-wrap">
+</div>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Skolem square puzzles are prevented from having horizontal, vertical or diagonal symmetry. However, I found that when I allowed for symmetry the result could be visually pleasing. I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.]]></summary></entry><entry><title type="html"></title><link href="http://localhost:4000/skolem_proof/" rel="alternate" type="text/html" title="" /><published>2024-04-02T00:00:00-04:00</published><updated>2024-04-02T00:00:00-04:00</updated><id>http://localhost:4000/skolem_proof</id><content type="html" xml:base="http://localhost:4000/skolem_proof/"><![CDATA[<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+
+<div class="math-wrap">
 <p><strong>Problem Statement:</strong> For which <span class="math inline">\(n \in \mathbb{N}\)</span> does there exists a Skolem sequence?<br />
 <strong>Introduction:</strong> A Skolem sequence of order <span class="math inline">\(n\)</span> is a permutation of the sequence: <span class="math inline">\(S = [1, 1, 2, 2, ... , n, n]\)</span>.<br />
 Each number <span class="math inline">\(i = 1...n\)</span> appears twice in the sequence, the position of the first instance of <span class="math inline">\(i\)</span> we will call <span class="math inline">\(x_i\)</span> and the second <span class="math inline">\(y_i\)</span>.<br />

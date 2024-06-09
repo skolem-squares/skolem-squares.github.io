@@ -482,7 +482,6 @@ table td {
   margin: 7.5px;
   background-color: #eae7dc;
   flex-wrap: wrap;
-  min-height: 70vh;
   align-items: center;
   justify-content: center;
 }

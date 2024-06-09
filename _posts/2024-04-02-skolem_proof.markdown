@@ -4,6 +4,7 @@ title: ""
 text: ""
 permalink: /skolem_proof/
 ---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
 <div class="math-wrap">
 <p><strong>Problem Statement:</strong> For which <span class="math inline">\(n \in \mathbb{N}\)</span> does there exists a Skolem sequence?<br />
 <strong>Introduction:</strong> A Skolem sequence of order <span class="math inline">\(n\)</span> is a permutation of the sequence: <span class="math inline">\(S = [1, 1, 2, 2, ... , n, n]\)</span>.<br />
