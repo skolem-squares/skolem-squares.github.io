@@ -1,4 +1,0 @@
-      <div class="footer-col footer-col-3">
-        <button type="submit">Download Resume</button>
-      </div>
- 

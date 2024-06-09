@@ -1,6 +1,4 @@
 Gemfile
-_site/
-_site/*
 _site/**
 .sass-cache/
 .jekyll-cache/
@@ -15,3 +13,4 @@ vendor/
 *.egg
 *.bak
 **/*.sw*
+**/*.bak
