@@ -485,6 +485,7 @@ height: 100%;
 .math-wrap {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
   padding: .25 * $spacing-unit;
