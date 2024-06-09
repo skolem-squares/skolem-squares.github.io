@@ -225,6 +225,11 @@ table td {
 /**
  * Site header
  */
+.pdf {
+  width: 80%;
+  height: 1200px;
+}
+
 .small_img {
   max-width: 15%;
   border-radius: 100px;
@@ -522,7 +527,28 @@ table td {
   padding: 7.5px;
   margin: 7.5px;
   vertical-align: middle;
+  align-items: left;
   justify-content: center;
+}
+
+.math-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 7.5px;
+  border: 1px solid #294d4a;
+  margin: 7.5px;
+  background-color: #eae7dc;
+  vertical-align: middle;
+  max-width: 80%;
+}
+.math-wrap > p {
+  width: 100%;
+  text-align: left;
+  white-space: pre-line;
+  margin: 0;
+  margin-left: 7.5px;
 }
 
 .flow-chart {

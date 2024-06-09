@@ -2,7 +2,10 @@
  * Site header
  */
 
-
+.pdf {
+width: 80%;
+height: 40 * $spacing-unit;
+}
 
 .small_img {
 //max-width: 20%;
@@ -475,8 +478,31 @@ height: 100%;
   padding: .25 * $spacing-unit;
   margin: .25 * $spacing-unit;
   vertical-align: middle;
+  align-items: left;
   justify-content: center;
 }
+
+.math-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: .25 * $spacing-unit;
+  border: 1px solid $wrap-border-color;
+  margin: .25 * $spacing-unit;
+  background-color: $post-color;
+  vertical-align: middle;
+  max-width: 80%;
+
+ > p {
+  width: 100%;
+  text-align: left;
+  white-space: pre-line;
+  margin: 0;
+  margin-left: .25 * $spacing-unit;
+  }
+}
+
 
 .flow-chart {
   display: flex;
