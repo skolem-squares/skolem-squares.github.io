@@ -1,4 +1,5 @@
 Gemfile
+_site
 _site/**
 .sass-cache/
 .jekyll-cache/
