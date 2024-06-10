@@ -85,11 +85,12 @@ max-width: 70%;
 }
 
 .table-contents {
-  padding: 1 * $spacing-unit;
+  flex: 0 0 80%;
+  //padding: 1 * $spacing-unit;
   border-top: .5px solid $wrap-border-color;
   border-left: .5px solid $wrap-border-color;
   border-right: .5px solid $wrap-border-color;
-  flex: 1;
+  //flex: 1;
   border-radius: 0;
 
 
