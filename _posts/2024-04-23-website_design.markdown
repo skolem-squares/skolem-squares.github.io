@@ -19,6 +19,6 @@ pic: /assets/pretty-puzzle-discrete_solved.png
   </div>
  </div>
  <div class="table-contents">
-  <img src="/assets/flow-chart.png" class="med_img">
+  <img src="/assets/flow-chart.png" class="flow_img">
   </div>
 </div>
