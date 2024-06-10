@@ -317,7 +317,7 @@ height: 100%;
   @include relative-font-size(0.5);
   padding: .1 * $spacing-unit;
   width: 85%;
-  min-height: 3 * $spacing-unit;
+  min-height: 5 * $spacing-unit;
   //min-width: 5 * $spacing-unit;
 
 }
@@ -361,7 +361,8 @@ height: 100%;
 }
 
 .footer-col-2 {
-  @include relative-font-size(.5);
+  @include relative-font-size(.75);
+  //font-size: 20px;
 
   //padding: .25 * $spacing-unit;
   //margin: 5px auto;

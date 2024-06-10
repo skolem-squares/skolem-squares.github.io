@@ -360,13 +360,19 @@ pre {
  * Icons
  */
 
+svg {
+  //width: "100%";
+  //height:"auto";
+  //viewBox="0 0 100 100";
+}
+
 .svg-icon {
+    transform: scale(1.5);
     width: 16px;
     height: 16px;
     display: inline-block;
     fill: #{$grey-color};
     padding-right: 5px;
-    vertical-align: text-top;
 }
 
 .social-media-list {

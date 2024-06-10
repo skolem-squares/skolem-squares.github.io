@@ -44,6 +44,11 @@ header_pages:
 
 include:
     - pages/
+
+footer_icons:
+    icon_height: 100%
+    icon_width: 100%
+#
 #sass:
 #  sass_dir: _sass
 #  style: compressed
