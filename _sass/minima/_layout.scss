@@ -68,12 +68,13 @@ max-width: 70%;
   justify-content: center;
   align-items: stretch;
   //border: 1px solid $wrap-border-color;
-  background-color: $post_color;
+  background-color: $wrapper_color;
+
   //min-height: 10 * $spacing-unit;
   //min-width: 20 * $spacing-unit;
-  border-radius: 0;
-  border-bottom: .5px solid $wrap-border-color;
-
+  //border-radius: 0;
+  //border-bottom: .5px solid $wrap-border-color;
+  width: 100%;
 
 }
 
@@ -86,6 +87,8 @@ max-width: 70%;
   align-items: stretch;
   border-radius: 0;
   border-left: .5px solid $wrap-border-color;
+  border-bottom: .5px solid $wrap-border-color;
+  background-color: $post_color;
 
 }
 
@@ -95,8 +98,11 @@ max-width: 70%;
   border-top: .5px solid $wrap-border-color;
   border-left: .5px solid $wrap-border-color;
   border-right: .5px solid $wrap-border-color;
+  border-bottom: .5px solid $wrap-border-color;
+
   //flex: 1;
   border-radius: 0;
+  background-color: $post_color;
 
 
 }
