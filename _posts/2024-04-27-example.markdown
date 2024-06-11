@@ -1,11 +1,10 @@
 ---
 layout: page
-title: ""
-text: Can you find the pattern in the sequence: 312132? How about 41312432?
+title: "" 
+text: "Can you find the pattern in the sequence: 312132? How about 41312432?"
 text2: These are called Langford sequences, Skolem Squares are built from the closely related Skolem sequences. To see the answer keep scrolling!
 permalink: /example/
 pic: /assets/pretty-puzzle-discrete.png
-link: More strategy for how to solve Skolem Squares.
 ---
 
 <div class="page-wrap">
