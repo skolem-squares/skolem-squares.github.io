@@ -56,7 +56,7 @@ max-height: 20 * $spacing-unit;
 
 .example_img {
 //max-width: 70%;
-width: auto;
+max-width: 90;
 }
 
 .big_img {
@@ -340,7 +340,7 @@ height: 100%;
   @include relative-font-size(0.5);
   padding: .1 * $spacing-unit;
   width: 85%;
-  min-height: 5 * $spacing-unit;
+  min-height: 4 * $spacing-unit;
   //min-width: 5 * $spacing-unit;
 
 }
@@ -482,7 +482,7 @@ height: 100%;
   justify-content: center;
   flex-wrap: wrap;
   width: 95%;
-  margin-bottom: calc(2 * $spacing-unit + 4vw);
+  margin-bottom: calc(2 * $spacing-unit + 2vw);
 
   //margin: .5 * $spacing-unit;
 
@@ -509,7 +509,8 @@ height: 100%;
 
 .page-wrap {
   display: flex;
-  flex: 0 0 40%;
+  //flex: 1 0 40%;
+  width: 60%;
   padding: .25 * $spacing-unit;
   border: 1px solid $wrap-border-color;
   margin: .25 * $spacing-unit;

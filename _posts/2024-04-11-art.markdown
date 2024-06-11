@@ -9,8 +9,7 @@ permalink: /puzzle_art/
 link: Click here to see more Skolem art!
 ---
 
-<div class="page-wrap-text">
-Skolem Squares with horizontal, vertical or diagonal symmetry don't necessarily make for the best puzzles.
+<div class="page-wrap-text">Skolem Squares with horizontal, vertical or diagonal symmetry don't necessarily make for the best puzzles.
 
 However, I found that when I allowed for symmetry the result could be visually pleasing.
 
