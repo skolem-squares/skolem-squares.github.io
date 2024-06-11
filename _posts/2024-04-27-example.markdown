@@ -1,0 +1,50 @@
+---
+layout: page
+title: ""
+text: Can you find the pattern in the sequence: 312132? How about 41312432?
+text2: These are called Langford sequences, Skolem Squares are built from the closely related Skolem sequences. To see the answer keep scrolling!
+permalink: /example/
+pic: /assets/pretty-puzzle-discrete.png
+link: More strategy for how to solve Skolem Squares.
+---
+
+<div class="page-wrap">
+Each puzzle has a unique solution that we can find by narrowing down the possibilities for each empty square, each column and the puzzle as a whole.<br>
+In this example 4 is the largest number: <br>
+
+</div>
+
+<img class="example_img" src="/assets/example-page/4-6-6.png">
+
+<div class="page-wrap">
+Like in Sudoku, it's good to start with entries that have few possibilities.
+In the bottom row, the third entry can only be filled with a 3.
+1 and 2 both have black squares where a partner would need to be and 4 goes out of bounds of the puzzle.<br>
+</div>
+
+
+<img class="example_img" src="/assets/example-page/4-6-6-example1.png">
+
+<div class="page-wrap">
+We can also consider the possibilities for any row or column.
+For the first column, there is only one possibility.
+For instance 1s can fit as the top two entries, but 2 cannot fit the bottom two entries.<br>
+</div>
+
+
+<img class="example_img" src="/assets/example-page/4-6-6-example2.png">
+
+<div class="page-wrap">
+Each number has to appear in the puzzle. <br>
+4 being the largest number has to fit somewhere in the corner of the puzzle.
+Looking at the top right corner, we can see that three out of four of our potential spots for a 4 are blocked.
+As a result, there is only one possible place for the 4s to go.<br>
+</div>
+
+<img class="example_img" src="/assets/example-page/4-6-6-example3.png">
+
+<div class="page-wrap">
+And finally here is the answer: <br>
+</div>
+
+<img class="example_img" src="/assets/example-page/4-6-6-solved.png">
