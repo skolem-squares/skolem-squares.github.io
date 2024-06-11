@@ -6,4 +6,4 @@ link: Click here for the backstory of this project!
 text: "" 
 pic: /assets/about-me.png
 ---
-<img src="/assets/pic-of-me.jpg">
+<img class="small_img" src="/assets/pic-of-me.jpg">
