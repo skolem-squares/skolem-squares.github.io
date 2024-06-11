@@ -6,4 +6,12 @@ link: Click here for the backstory of this project!
 text: "" 
 pic: /assets/about-me.png
 ---
-<img class="small_img" src="/assets/pic-of-me.jpg">
+I first encountered Langford Sequences in my freshman year of college. We were challenged to figure out the pattern from the numbers 312132 and from there see if we can find solutions for n = 4,5, and so on.
+
+I was immediately taken with these sequences, they reminded me of the Sudoku, Ken-Ken and Kakuro puzzles I'd enjoyed for many years. I think this is a big part of what convinced me to be a Math major.
+
+After college I worked for a software company where I learned about websites and how to troubleshoot code issues. Then I worked for a genetics lab where I gained experience organizing and manipulating data.
+
+It really feels like all I've learned has come together for this project, and I'm ecstatic to start sharing Skolem Square puzzles.
+
+<img class="smallish_img" src="/assets/pic-of-me.jpg">
