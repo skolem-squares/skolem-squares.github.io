@@ -55,8 +55,8 @@ max-height: 20 * $spacing-unit;
 
 
 .example_img {
-max-width: 70%;
-
+//max-width: 70%;
+width: auto;
 }
 
 .big_img {
@@ -81,7 +81,7 @@ max-width: 70%;
   //min-width: 20 * $spacing-unit;
   //border-radius: 0;
   //border-bottom: .5px solid $wrap-border-color;
-  width: 95%;
+  width: 90%;
 
 }
 
@@ -523,6 +523,27 @@ height: 100%;
   justify-content: center;
 }
 
+.page-wrap0 {
+  display: flex;
+  //flex: 0 0 28%;
+  flex-direction: column;
+  padding: .25 * $spacing-unit;
+  border: 1px solid $wrap-border-color;
+  margin: .25 * $spacing-unit;
+  background-color: $post-color;
+  flex-wrap: wrap;
+  text-align: center;
+  //vertical-align: middle;
+  //min-height: 70vh;
+  //max-width: 600px;
+  align-items: center;
+  justify-content: center;
+  white-space: pre-line;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .page-wrap2 {
   display: flex;
   //flex: 0 0 28%;
@@ -538,6 +559,8 @@ height: 100%;
   //max-width: 600px;
   align-items: center;
   justify-content: center;
+  white-space: pre-line;
+
 }
 
 .page-wrap3 {
@@ -573,6 +596,8 @@ height: 100%;
   background-color: $post-color;
   vertical-align: middle;
   max-width: 80%;
+  white-space: pre-line;
+
 }
 
 
@@ -752,12 +777,12 @@ height: 100%;
 .page-link {
   //display: block;
   width: 100%;
-  display: flex;
-  align-items: center;
+  //display: flex;
+  //align-items: center;
  
   color: $grey-color;
   @include relative-font-size(1);
-  text-align: left;
+  //text-align: left;
  
 }
 
