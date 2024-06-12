@@ -112,12 +112,12 @@ img {
 
 
 div {
-  vertical-align: middle;
+  //vertical-align: middle;
   @include relative-font-size(1);
   align-items: center;
   //margin-left: auto;
   //margin-right: auto; 
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 /**
@@ -241,7 +241,7 @@ pre {
   //justify-content: space-around;
 
   background-color: $wrapper_color;
-  border: 1px solid $wrap-border-color;
+  //border: 1px solid $wrap-border-color;
   //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 10));
   //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 10));
   //max-width: 80vw;
@@ -274,7 +274,7 @@ pre {
 
 
   background-color: $wrapper_color;
-  border: 1px solid $wrap-border-color;
+  //border: 1px solid $wrap-border-color;
   //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 10));
   //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 10));
   //max-width: 80vw;
@@ -317,7 +317,7 @@ pre {
  
   flex-grow: 2;
   background-color: $wrapper_color;
-  border: 1px solid $wrap-border-color;
+  //border: 1px solid $wrap-border-color;
   //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 10));
   //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 10));
   //max-width: 80vw;

@@ -26,52 +26,47 @@ $spacing-unit:     30px !default;
 
 //$scaling-unit: (calc(vw + vh));
 
+//Last color scheme
 
 
-//$text-color:       #111 !default;
-
-// blues
-//$wrapper-color: #cee5f2 !default;
-//$post-color: #fffafb !default;
-//$wrap-border-color: #303c6c !default;
-//$header-footer-color: #303c6c !default;
-//$background-color: #303c6c !default;
-
-//notebook
-$wrapper-color: #d8c3a5 !default;
+//$wrapper-color: #d8c3a5 !default;
+$wrapper-color: #c5c0ae !default;
 $post-color: #eae7dc !default;
-//$text-color: #0f0a0a !default;
-//$background-color: #2c0703 !default;
-//$wrap-border-color: $background-color;
-
-//red and slate 
-//$wrapper-color: #986c6a !default;
+$wrapper-color: #986c6a !default;
 $background-color: #294d4a !default;
-//$background-color: #6b0f1a !default;
-
 $button-color: #fffafb !default;
-
-
 $wrap-border-color: $background-color;
-
-
-//$grey-color: #000000 !default;
-//$brand-color: #000000 !default;
-//$text-color: #294d4a !default;
-
 $grey-color: #000000 !default;
-//$brand-color: #294d4a !default;
 $brand-color: #000000 !default;
 $text-color: #000000 !default;
-
-
-
-
-
-
-
 $header-footer-color: $background-color;
 
+
+//blue
+/*
+$post-color: #dff2ff !default;
+$wrapper-color: #add1e9 !default;
+$background-color: #F4F7F5 !default;
+$button-color: #dff2ff !default;
+$wrap-border-color: $background-color;
+$grey-color: #000000 !default;
+$brand-color: #000000 !default;
+$text-color: #000000 !default;
+$header-footer-color: $background-color;
+*/
+
+//green
+/*
+$post-color: #dff3ef !default;
+$wrapper-color: #accbc5 !default;
+$background-color: #f4f7f5 !default;
+$button-color: #dff2ff !default;
+$wrap-border-color: $background-color;
+$grey-color: #000000 !default;
+$brand-color: #000000 !default;
+$text-color: #000000 !default;
+$header-footer-color: $background-color;
+*/
 
 //$brand-color:      #2a7ae2 !default;
 
