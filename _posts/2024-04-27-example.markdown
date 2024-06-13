@@ -1,8 +1,7 @@
 ---
 layout: page
-title: "" 
-text: "Skolem Squares are built from Skolem sequences."
-text2: 
+title: ""
+text: ""
 permalink: /example/
 pic: /assets/blocks.png
 ---

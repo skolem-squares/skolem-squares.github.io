@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-text: Skolem Squares are puzzles solved by filling in the white squares with numbers 1, 2, ...n where n is the largest allowed number. Each row and column can have at most two of any number.
+text: "Skolem Squares are puzzles solved by filling in the white squares with numbers 1, 2, ...n where n is the largest allowed number. Each row and column can have at most two of any number."
 text2: In addition, each row and column in the Skolem square must be a Skolem sequence, more on that below!
 pic: /assets/pretty-puzzle-none.png
 permalink: /intro/

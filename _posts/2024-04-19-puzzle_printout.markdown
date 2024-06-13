@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-text: Skolem Square puzzles you can print out and solve!
+text: ""
 permalink: /puzzle_printout/
 pic: /assets/8-10-10-puzzle-small.png
 link: Click here to download printable puzzle pdfs!
