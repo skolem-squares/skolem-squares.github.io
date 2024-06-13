@@ -568,6 +568,29 @@ height: 100%;
  
 }
 
+.page-wrap5 {
+  display: flex;
+  //flex: 0 0 28%;
+  flex-direction: row;
+  padding: .25 * $spacing-unit;
+  //border: 1px solid $wrap-border-color;
+  margin: .25 * $spacing-unit;
+  margin-bottom: 1.5 * $spacing-unit;
+  max-width: 80%;
+  line-height: 1.5;
+ 
+  background-color: $post-color;
+  flex-wrap: wrap;
+  text-align: left;
+  //vertical-align: middle;
+  //min-height: 70vh;
+  //max-width: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  white-space: pre-line;
+
+}
+
 
 .page-wrap2 {
   display: flex;

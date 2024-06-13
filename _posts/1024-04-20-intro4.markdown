@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-text: A Skolem sequence has the property that each number (1, 2, 3 and so on), appears twice and the distance between each pair of numbers is the equal to the value of that number.
+text: In a Skolem sequence each number (1, 2, 3 and so on) appears twice and the distance between each pair of numbers is the equal to the value of that number. Numbers in this sequence can be thought of as being in a pair, or having a partner.
 text2: A Langford sequence is similar, but instead each number pair has that many numbers inbetween. The 1s have one number between them, the 2s have two numbers between them and so on.
 permalink: /intro4/
 pic: /assets/41134232.png

@@ -6,7 +6,9 @@ permalink: /skolem_puzzle/
 pic: /assets/8-10-10-puzzle-small.png
 link: Click here to download printable puzzle pdfs!
 ---
-<div class="page-wrap2">The Skolem Square puzzle: Fill all the white squares, find the unique solution!</div>
+<div class="page-wrap5">The Skolem Square puzzle: Fill all the white squares, find the unique solution!
+<img class="small_img" src="/assets/pretty-puzzle-none.png"><img class="small_img" src="/assets/pretty-puzzle-none_solved.png">
+</div>
 
 <div class="page-wrap2"><center>Rules:</center>
 1. Skolem Squares columns and rows must all be Skolem sequences.

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: ""
-text: Skolem Square puzzles you can print out and solve!
-permalink: /puzzle_printout/
+text: The Skolem Square puzzle is this, can you fill the correct number into each white square and find the unique Skolem Square? All that's given are black zeroes, along with a couple simple rules.
+text2: ""
+permalink: /skolem_puzzle/
 pic: /assets/8-10-10-puzzle-small.png
-link: Click here to download printable puzzle pdfs!
+link: Continue reading to find out more and try the puzzles yourself!
 ---

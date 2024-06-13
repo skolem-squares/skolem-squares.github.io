@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "" 
-text: "Skolem Squares are built from Skolem sequences."
+text: "A property of Skolem Squares is that the small squares form the corners of a medium-sized square. The side length of that medium-sized square is equal to the value in the small squares plus one."
 text2: 
 permalink: /intro3/
-pic: /assets/blocks.png
+pic: /assets/pretty-puzzle-discrete_solved.png
 ---
