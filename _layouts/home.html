@@ -8,9 +8,12 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
+        <li>
+          <p class="site-subtitle">Skolem Squares: A Sudoku-like number puzzle</p>
+        </li>
+
       {%- for post in site.posts -%}
         {%- if post.text != "" -%}
           <li>
