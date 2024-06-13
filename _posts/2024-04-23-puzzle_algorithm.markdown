@@ -12,4 +12,4 @@ Here you can see that the 1s, 2s and 3s all form squares:
 <img src="/assets/pretty-puzzle-discrete_solved.png" class="med_img">
 
 Skolem Squares are built by adding all 4 numbers together as a single unit which I will call a Skolem entry.
-To see how I use Skolem entries to build a Skolem Square, check out this <a class="page-link" href="{{ "/flowchart/" | relative_url }}">{{ "flowchart diagram." | escape }}</a>
+To see how I use Skolem entries to build a Skolem Square, check out this [flowchart diagram](/flowchart/).

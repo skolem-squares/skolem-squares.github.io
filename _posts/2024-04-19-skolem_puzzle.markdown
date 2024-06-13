@@ -6,10 +6,10 @@ permalink: /skolem_puzzle/
 pic: /assets/8-10-10-puzzle-small.png
 link: Click here to download printable puzzle pdfs!
 ---
-<div class="page-wrap2">Can you fill in a Skolem Square if you're only given the zeroes? If you take on the challenge you can use the following rules to your advantage!</div>
+<div class="page-wrap2">The Skolem Square puzzle: Fill all the white squares, find the unique solution!</div>
 
 <div class="page-wrap2"><center>Rules:</center>
-1. Skolem Squares columns and rows must all be Skolem sequences. 
+1. Skolem Squares columns and rows must all be Skolem sequences.
 
 2. A Skolem Square must contain each number from 1 to the largest which varies from puzzle to puzzle.
 
@@ -17,7 +17,7 @@ link: Click here to download printable puzzle pdfs!
 </div>
 
 <div class="page-wrap0">Ready to give it a go!
-<a class="page-link" href="{{ "/puzzle_printout/" | relative_url }}">{{ "Here are puzzles to try!" | escape }}</a>
-Unsure how to go about solving Skolem Square puzzles? 
-<a class="page-link" href="{{ "/example/" | relative_url }}">{{ "Here are a few strategies that may prove useful!" | escape }}</a>
+<a class="page-link" href="{{ "/puzzle_printout/" | relative_url }}">{{ "Try these puzzles!" | escape }}</a>
+Unsure how to go about solving Skolem Square puzzles?
+<a class="page-link" href="{{ "/example/" | relative_url }}">{{ "Here are a few strategies that may prove useful." | escape }}</a>
 </div>
