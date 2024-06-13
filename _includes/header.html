@@ -6,22 +6,19 @@
       <img src="/assets/header-pic.png" class="small_img">
       <div class="web-title">
           <p class="site-title">Skolem Squares</p>
-          <p class="site-subtitle">A number puzzle based on Skolem sequences</p>
+          <p class="site-subtitle">A Sudoku-like number puzzle</p>
      </div>
       <img src="/assets/header-pic.png" class="small_img">
     </div>
 
 
      <div class="site-nav">
-      {%- for post in site.posts -%}
-         {%- if post.title != "" -%}
-           <div class="header-icon"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
-         {%- endif -%}
-         {%- if post.title == "Skolem Puzzles" -%}
-           <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Home Page</a></div>
-         {%- endif -%}
-       {%- endfor -%}
-
+       <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Introduction</a></div>
+        {%- for post in site.posts -%}
+           {%- if post.title != "" -%}
+             <div class="header-icon"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+           {%- endif -%}
+        {%- endfor -%}
     </div>
 
 

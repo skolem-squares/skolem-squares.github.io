@@ -5,10 +5,11 @@
 
 
 .small_img {
-//max-width: 20%;
+max-width: 25%;
 //max-height: 20%;
 //max-width: 20%;
-max-width: 12%;
+//max-width: 12%;
+//max-width: 13%;
 //border-radius: 100px;
 
 }
@@ -33,7 +34,11 @@ max-width: 20%;
 
 }
 
+.print_img {
+ //width: 80%;
+ height: 50%;
 
+}
 .med_img {
 //max-width: 20%;
 //max-height: 20%;
@@ -90,26 +95,23 @@ max-width: 90;
   display: flex;
   flex-direction: column;
   //flex: 1 0 100%;
+  margin: .2 * $spacing-unit;
   justify-content: stretch;
   align-items: stretch;
-  border-radius: 0;
-  border-left: .5px solid $wrap-border-color;
-  border-bottom: .5px solid $wrap-border-color;
-  background-color: $post_color;
-
-}
+  //border-radius: 0;
+  //border-left: .5px solid $wrap-border-color;
+  //border-bottom: .5px solid $wrap-border-color;
+ }
 
 .table-contents {
+  @include relative-font-size(.75);
   flex: 0 0 80%;
   //padding: 1 * $spacing-unit;
-  border-top: .5px solid $wrap-border-color;
-  border-left: .5px solid $wrap-border-color;
-  border-right: .5px solid $wrap-border-color;
-  border-bottom: .5px solid $wrap-border-color;
+  //border: .5px solid $wrap-border-color;
   align-items: center;
   justify-content: center;
  //flex: 1;
-  border-radius: 0;
+  //border-radius: 0;
   background-color: $post_color;
   
   > p {
@@ -133,10 +135,14 @@ max-width: 90;
 .table-item {
   display: flex;
   flex: 1;
-  //width: 100%;
-  border-top: .5px solid $wrap-border-color;
+  background-color: $post_color;
+  margin: .25 * $spacing-unit;
 
-  border-radius: 0;
+
+  //width: 100%;
+  //border-top: .5px solid $wrap-border-color;
+
+  //border-radius: 0;
 
 }
 .table-link {
@@ -144,8 +150,8 @@ max-width: 90;
   width: 100%;
   //display: flex;
   align-items: center;
-  color: $grey-color;
-  @include relative-font-size(1);
+  //color: $grey-color;
+  @include relative-font-size(.3);
   //text-align: left;
 }
 
@@ -153,6 +159,7 @@ max-width: 90;
 
 .header-item {
 margin: 5px auto;
+//margin-left: 0;
 max-width: 33%;
 min-width: 20%;
 height: 100%;
@@ -163,10 +170,13 @@ height: 100%;
 
 .title-item {
   display: flex;
-  background-color: $wrapper_color;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  //margin-left: 7%;
+  //margin-right: 7%;
   padding-top: .5 * $spacing-unit;
+  padding-bottom: .5 * $spacing-unit;
+ 
   //flex: 1;
   //flex-grow: 1;
 //margin: 5px auto;
@@ -181,11 +191,12 @@ height: 100%;
 
 .web-title {
   display: flex;
+  flex: 0 2 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   //transform: translateY(15%);
-  line-height: 1em;
+  //line-height: 10px;
   //height: 5* $spacing-unit;
   //min-height: 197px;
   //padding-left: 5%;
@@ -214,29 +225,30 @@ height: 100%;
   width: 85vw;
   //max-height: ;
 
-  background-color: $header-footer-color;
-  // Positioning context for the mobile navigation icon
+ // Positioning context for the mobile navigation icon
   //position: relative;
 }
 
 .site-subtitle {
 //  @include relative-font-size(1.625);
-  @include relative-font-size(.75);
+  @include relative-font-size(1);
+  //@include relative-line-height(1.2);
   line-height: $base-line-height * $base-font-size * 1.2;
   //white-space:nowrap; 
-  margin: 0;
+  //;margin: 0;
 }
 
 .site-title {
 //  @include relative-font-size(1.625);
-  @include relative-font-size(2.625);
+  @include relative-font-size(5);
   //white-space:nowrap; 
+  //@include relative-line-height(2);
 
   font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: $base-line-height * $base-font-size * 4;
   letter-spacing: 1px;
-  margin: 0;
-  margin-bottom: 5%;
+  //margin: 0;
+  //margin-bottom: 5%;
   //margin-top: 1 * $spacing-unit;
 
 
@@ -254,7 +266,6 @@ height: 100%;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: $wrapper_color;
   width: 100%;
   padding-top: .5 * $spacing-unit;
   padding-bottom: .5 * $spacing-unit;
@@ -265,14 +276,16 @@ height: 100%;
 
 .header-icon {
   display: flex;
-  border: 1px solid $wrap-border-color;
+  flex: 2 1 10%;
+  //border: 1px solid $wrap-border-color;
   vertical-align: middle;
-  padding: .3 * $spacing-unit;
+  padding: .2 * $spacing-unit;
+  margin: .1 * $spacing-unit;
 
 //  max-width: 5%;
   background-color: $button-color;
   justify-content: center;
-  width: 15%;
+  //width: 15%;
 }
 
 
@@ -289,7 +302,7 @@ height: 100%;
   //padding-left: 3 * $spacing-unit;
   //padding-right: 3 * $spacing-unit;
 
-  background-color: $header-footer-color;
+  //background-color: $header-footer-color;
   border-bottom: 10px solid $background-color;
   // padding: 0 * $spacing-unit;
   text-align: center;
@@ -316,7 +329,7 @@ height: 100%;
   //width: 100%;
 
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  //color: $grey-color;
   //position: relative;
   transform: translateY(10%);
   // margin-left: -$spacing-unit / 2;
@@ -340,7 +353,7 @@ height: 100%;
   @include relative-font-size(0.5);
   padding: .1 * $spacing-unit;
   width: 85%;
-  min-height: 4 * $spacing-unit;
+  min-height: 3 * $spacing-unit;
   //min-width: 5 * $spacing-unit;
 
 }
@@ -483,6 +496,8 @@ height: 100%;
   flex-wrap: wrap;
   width: 95%;
   margin-bottom: calc(2 * $spacing-unit + 2vw);
+  line-height: 1.5;
+ 
 
   //margin: .5 * $spacing-unit;
 
@@ -522,6 +537,8 @@ height: 100%;
   //max-width: 30%;
   align-items: center;
   justify-content: center;
+  line-height: 1.5;
+ 
 }
 
 .page-wrap0 {
@@ -542,6 +559,8 @@ height: 100%;
   white-space: pre-line;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.5;
+ 
 }
 
 
@@ -552,6 +571,10 @@ height: 100%;
   padding: .25 * $spacing-unit;
   //border: 1px solid $wrap-border-color;
   margin: .25 * $spacing-unit;
+  margin-bottom: 1.5 * $spacing-unit;
+  max-width: 80%;
+  line-height: 1.5;
+ 
   background-color: $post-color;
   flex-wrap: wrap;
   text-align: left;
@@ -572,6 +595,9 @@ height: 100%;
   background-color: $post-color;
   vertical-align: middle;
   min-height: 600px;
+  line-height: 1.5;
+ 
+
 }
 
 .page-wrap4 {
@@ -582,6 +608,9 @@ height: 100%;
   background-color: $post-color;
   vertical-align: middle;
   max-width: 80%;
+  line-height: 1.5;
+ 
+
   //max-width: 600px;
  // align-items: center;
   //justify-content: center;
@@ -598,6 +627,9 @@ height: 100%;
   vertical-align: middle;
   max-width: 80%;
   white-space: pre-line;
+  line-height: 1.5;
+ 
+
 
 }
 
@@ -612,6 +644,9 @@ height: 100%;
   vertical-align: middle;
   align-items: left;
   justify-content: center;
+  line-height: 1.5;
+ 
+
 }
 
 .math-wrap {
@@ -632,6 +667,7 @@ height: 100%;
   width: 100%;
   text-align: left;
   white-space: pre-line;
+  line-height: 1.5;
   margin: 0;
   margin-left: .25 * $spacing-unit;
   }
@@ -674,8 +710,8 @@ height: 100%;
   margin-bottom: .5 * $spacing-unit;
 
   //margin-top: 1 * $spacing-unit;
-
-
+  //line-height: 1.5;
+ 
   display: flex;
   flex: 1.5 0 50%;
 
@@ -695,6 +731,8 @@ height: 100%;
 
 
 .post-wrap2 {
+ 
+
   //background-color: $post-color;
   //border: 1px solid $wrap-border-color;
 
@@ -711,6 +749,8 @@ height: 100%;
   justify-content: center;
   //min-height: 30vh;
   //width: 100%;
+  line-height: 1.5;
+ 
 }
 
 
@@ -754,7 +794,7 @@ height: 100%;
 .post-meta {
   @include relative-font-size(1);
 
-  color: $grey-color;
+  //color: $grey-color;
 }
 
 .post-title {
@@ -769,7 +809,7 @@ height: 100%;
   align-items: center;
   justify-content: center;
  
-  color: $grey-color;
+  //color: $grey-color;
   @include relative-font-size(.5);
   text-align: center;
  
@@ -781,7 +821,7 @@ height: 100%;
   //display: flex;
   //align-items: center;
  
-  color: $grey-color;
+  //color: $grey-color;
   @include relative-font-size(1);
   //text-align: left;
  

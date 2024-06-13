@@ -18,31 +18,35 @@ layout: default
               <div class="post-text">
                   {{ post.text | escape }}
               </div>
-              <br>
-              <div class="post-foot">
+              {%- if post.foot != "" -%}
+                <br>
+                <div class="post-foot">
+              {%- endif -%}
+              {%- if post.text2 != "" -%}
                 <div class="post-text">
                     {{ post.text2 | escape }}
                 </div>
+              {%- endif -%}
+              {%- if post.link != "" -%}
                 <a class="page-link" href="{{ post.url | relative_url }}">
                   {{ post.link | escape }}
                 </a>
+              {%- endif -%}
               </div>
             </div>
-            <div class="post-wrap2">
-              <div class="post-text">
+            {%- if post.link != "" -%}
+              <div class="post-wrap2">
+                <div class="post-text">
                   {{ post.subtext | escape }}
+                </div>
+                <div class="post-entry">
+                  <img class="med_img" src="{{ post.pic | relative_url }}">
+                </div>
               </div>
-              <div class="post-entry">
-                <img class="med_img" src="{{ post.pic | relative_url }}">
-              </div>
-            </div>
+            {%- endif -%}
+          </li>
         {%- endif -%}
-
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
+     {%- endfor -%}
     </ul>
 
   {%- endif -%}

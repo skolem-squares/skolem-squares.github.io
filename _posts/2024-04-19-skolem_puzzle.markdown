@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Skolem Puzzles
+title: "Puzzles"
 text: ""
 permalink: /skolem_puzzle/
 pic: /assets/8-10-10-puzzle-small.png

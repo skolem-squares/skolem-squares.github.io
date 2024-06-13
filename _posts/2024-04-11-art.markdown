@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Skolem Art
+title: Art
 text: ""
 subtext: assigned to each number.
 categories: jekyll update
@@ -8,7 +8,6 @@ pic: /assets/pretty-puzzle-twilight.png
 permalink: /puzzle_art/
 link: Click here to see more Skolem art!
 ---
-
 <div class="page-wrap-text">Skolem Squares with horizontal, vertical or diagonal symmetry don't necessarily make for the best puzzles.
 
 However, I found that when I allowed for symmetry the result could be visually pleasing.

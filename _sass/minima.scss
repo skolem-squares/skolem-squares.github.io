@@ -26,20 +26,32 @@ $spacing-unit:     30px !default;
 
 //$scaling-unit: (calc(vw + vh));
 
-//Last color scheme
 
-
-//$wrapper-color: #d8c3a5 !default;
-$wrapper-color: #c5c0ae !default;
-$post-color: #eae7dc !default;
+//dark theme
+/*
+$wrapper-color: #000000 !default;
+$post-color: #125d5c !default;
 $wrapper-color: #986c6a !default;
-$background-color: #294d4a !default;
+$background-color: #000000 !default;
 $button-color: #fffafb !default;
 $wrap-border-color: $background-color;
 $grey-color: #000000 !default;
 $brand-color: #000000 !default;
+$text-color: #f4f7f5 !default;
+$header-footer-color: $post-color;
+*/
+
+//notebook
+$wrapper-color: #c5c0ae !default;
+$post-color: #eae7dc !default;
+$wrapper-color: #986c6a !default;
+$background-color: #294d4a !default;
+$wrap-border-color: $background-color;
+$grey-color: #000000 !default;
+$brand-color: #0070e0 !default;
 $text-color: #000000 !default;
-$header-footer-color: $background-color;
+$header-footer-color: $wrapper-color;
+$button-color: $post-color;
 
 
 //blue
@@ -95,8 +107,10 @@ $on-laptop:        800px !default;
   }
 }
 
+
 @mixin relative-font-size($ratio) {
   font-size: calc($base-font-size * $ratio + 1vw + .5vh);
+  //line-height: calc($base-line-height * $ratio + .5vh);
 }
 
 // Import partials.
