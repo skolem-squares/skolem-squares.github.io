@@ -15,6 +15,8 @@ link: Click here to download printable puzzle pdfs!
 <a href="/assets/download-page/6-8-8-printout.png" download="/assets/download-page/6-8-8-printout.png">
     <button type="submit">Download</button>
 </a>
+<img class="hidden_img" src="/assets/download-page/6-8-8-printout.png">
+<a href="#" onclick="printImage('/assets/download-page/6-8-8-printout.png'); return false;"><button>Print</button></a>
 </div>
 
 <div class="page-wrap2">Largest number: 7 Difficulty: Medium<br>
@@ -26,6 +28,8 @@ link: Click here to download printable puzzle pdfs!
 <a href="/assets/download-page/7-9-9-printout.png" download="/assets/download-page/7-9-9-printout.png">
     <button type="submit">Download</button>
 </a>
+<img class="hidden_img" src="/assets/download-page/7-9-9-printout.png">
+<a href="#" onclick="printImage('/assets/download-page/7-9-9-printout.png'); return false;"><button>Print</button></a>
 </div>
 
 <div class="page-wrap2">Largest number: 8 Difficulty: Hard<br>
@@ -37,4 +41,6 @@ link: Click here to download printable puzzle pdfs!
 <a href="/assets/download-page/8-10-10-printout.png" download="/assets/download-page/8-10-10-printout.png">
     <button type="submit">Download</button>
 </a>
+<img class="hidden_img" src="/assets/download-page/8-10-10-printout.png">
+<a href="#" onclick="printImage('/assets/download-page/8-10-10-printout.png'); return false;"><button>Print</button></a>
 </div>
