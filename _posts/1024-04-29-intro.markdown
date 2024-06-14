@@ -2,8 +2,8 @@
 layout: page
 title: ""
 text: "A Skolem Square is made up of an array of smaller squares, each with a number inside. In a Skolem Square, the numbers that form the rows and columns must themselves be Skolem Sequences."
-text2: "Note that the black spaces contain the number zero."
-pic: /assets/pretty-puzzle-none_solved.png
+text2: ""
+pic: /assets/pretty-puzzle-allwhite.png
 permalink: /intro/
 ---
 text: "Skolem Squares are puzzles solved by filling in the white squares with numbers 1, 2, ...n where n is the largest allowed number. Each row and column can have at most two of any number."
