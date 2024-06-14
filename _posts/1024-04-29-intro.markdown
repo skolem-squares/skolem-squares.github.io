@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-text: "A Skolem Square is made up of an array of smaller squares, each with a number inside. In a Skolem Square, the numbers that form the rows and columns must themselves be Skolem Sequences."
+text: "A Skolem Square is made up of an array of smaller squares, each with a number inside. In a Skolem Square, the numbers that form the rows and columns must themselves be Skolem sequences."
 text2: ""
 pic: /assets/pretty-puzzle-allwhite.png
 permalink: /intro/

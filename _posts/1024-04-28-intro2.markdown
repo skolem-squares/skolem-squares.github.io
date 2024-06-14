@@ -1,7 +1,12 @@
 ---
 layout: page
 title: ""
-text: "In order to understand Skolem Sequences, let us first look at the closely-related Langford sequences. Here is a Langford sequence for the number 3: 312132. It is unique, though we could flip it around: 231213. We can also extend the pattern to include 4: 41312432. Can you spot the pattern? Hint - why are there two of each number?"
+text: "A zero in a Skolem sequence is a blank or empty space, which I represent by coloring them black."
+text2: "In order to understand Skolem sequences, let us consider a single sequence with no zeroes: 41134232. It is unique, though we could flip it around: 23243114. We can also extend the pattern to include 5: 5113453242. Can you spot the pattern? Hint - why are there two of each number?"
 pic: /assets/pretty-puzzle-none_solved.png
 permalink: /intro2/
 ---
+In order to understand Skolem Sequences, let us first look at the closely-related Langford sequences. Here is a Langford sequence for the number 3: 312132. It is unique, though we could flip it around: 231213. We can also extend the pattern to include 4: 41312432. Can you spot the pattern? Hint - why are there two of each number?"
+
+In order to understand Skolem sequences, let us consider a single sequence with no zeroes: 41134232. It is unique, though we could flip it around: 23243114. We can also extend the pattern to include 5: 5113453242. Can you spot the pattern? Hint - why are there two of each number?"
+

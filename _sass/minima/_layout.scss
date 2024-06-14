@@ -757,7 +757,7 @@ height: 100%;
   //line-height: 1.5;
  
   display: flex;
-  flex: 1.5 0 50%;
+  flex: 1 0 40%;
 
   flex-direction: column;
   //flex-wrap: wrap;
@@ -786,7 +786,7 @@ height: 100%;
 
   display: flex;
   //flex: 0 0 20%;
-
+  min-width: 40%;
   //flex-direction: column;
   //flex-wrap: wrap;
   align-items: center;

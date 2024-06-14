@@ -2,7 +2,7 @@
 layout: page
 title: ""
 text: In a Skolem sequence each number (1, 2, 3 and so on) appears twice and the distance between each pair of numbers is the equal to the value of that number. Numbers in this sequence can be thought of as being in a pair, or having a partner.
-text2: Another way to think about Skolem sequences is that the pair of 1s will have 0 numbers between them, the 2s will have 1 number between them and so on. Langford sequences are similar, but the pair of 1s will have 1 number between them, the 2s will have 2 numbers between them, etc.
+text2: Another way to think about Skolem sequences is that the pair of 1s will have 0 numbers between them, the 2s will have 1 number between them and so on.
 permalink: /intro4/
 pic: /assets/41134232.png
 ---
