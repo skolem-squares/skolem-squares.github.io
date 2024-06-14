@@ -159,6 +159,18 @@ max-width: 90;
   //text-align: left;
 }
 
+.table-link-active {
+  //display: block;
+  width: 100%;
+  //display: flex;
+  align-items: center;
+  //color: $grey-color;
+  @include relative-font-size(.3);
+  //text-align: left;
+  text-decoration: underline;
+}
+
+
 
 
 .header-item {
@@ -842,6 +854,22 @@ height: 100%;
   text-align: center;
  
 }
+
+.post-link-active {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  //color: $grey-color;
+  @include relative-font-size(.5);
+  text-align: center;
+ 
+  //display: block;
+ text-decoration: underline;
+ 
+}
+
 
 .page-link {
   //display: block;

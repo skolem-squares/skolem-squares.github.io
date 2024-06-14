@@ -12,11 +12,21 @@
 
 
      <div class="site-nav">
-       <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Introduction</a></div>
-        {%- for post in site.posts -%}
+       {% if page.url == "/" %}
+         <div class="header-icon"><a class="post-link-active" href="{{ "/" | relative_url }}">Introduction</a></div>
+       {% else %}
+         <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Introduction</a></div>
+ 
+       {%- endif -%}
+
+       {%- for post in site.posts -%}
            {%- if post.title != "" -%}
-             <div class="header-icon"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
-           {%- endif -%}
+               {% if post.url == page.url %}
+                    <div class="header-icon"><a class="post-link-active" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+               {% else %}
+                    <div class="header-icon"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+               {%- endif -%}
+          {%- endif -%}
         {%- endfor -%}
     </div>
 

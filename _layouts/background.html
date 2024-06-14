@@ -5,20 +5,40 @@ layout: default
     <div class="background-table">
      <div class="table-nav">
       <div class="table-item">
-       <a class="table-link" href="{{ "/design/" | relative_url }}">{{ "Puzzle Design" | escape }}</a>
+       {% if page.url == "/design/" %}
+         <a class="table-link-active" href="{{ "/design/" | relative_url }}">{{ "Puzzle Design" | escape }}</a>
+       {% else %}
+         <a class="table-link" href="{{ "/design/" | relative_url }}">{{ "Puzzle Design" | escape }}</a>
+       {%- endif -%}
       </div>
       <div class="table-item">
-       <a class="table-link" href="{{ "/algorithm/" | relative_url }}">{{ "Puzzle Algorithm" | escape }}</a>
+       {% if page.url == "/algorithm/" %}
+         <a class="table-link-active" href="{{ "/algorithm/" | relative_url }}">{{ "Puzzle Algorithm" | escape }}</a>
+       {% else %}
+         <a class="table-link" href="{{ "/algorithm/" | relative_url }}">{{ "Puzzle Algorithm" | escape }}</a>
+       {%- endif -%}
       </div>
       <div class="table-item">
-       <a class="table-link" href="{{ "/projectcode/" | relative_url }}">{{ "Code Base" | escape }}</a>
+       {% if page.url == "/projectcode/" %}
+         <a class="table-link-active" href="{{ "/projectcode/" | relative_url }}">{{ "Code Base" | escape }}</a>
+       {% else %}
+         <a class="table-link" href="{{ "/projectcode/" | relative_url }}">{{ "Code Base" | escape }}</a>
+       {%- endif -%}
       </div>
       <div class="table-item">
-       <a class="table-link" href="{{ "/webdesign/" | relative_url }}">{{ "Website Info" | escape }}</a>
-      </div>
+       {% if page.url == "/webdesign/" %}
+         <a class="table-link-active" href="{{ "/webdesign/" | relative_url }}">{{ "Website Info" | escape }}</a>
+       {% else %}
+         <a class="table-link" href="{{ "/webdesign/" | relative_url }}">{{ "Website Info" | escape }}</a>
+       {%- endif -%}
+     </div>
       <div class="table-item">
-       <a class="table-link" href="{{ "/aboutme/" | relative_url }}">{{ "About Me" | escape }}</a>
-      </div>
+       {% if page.url == "/aboutme/" %}
+         <a class="table-link-active" href="{{ "/aboutme/" | relative_url }}">{{ "About Me" | escape }}</a>
+       {% else %}
+         <a class="table-link" href="{{ "/aboutme/" | relative_url }}">{{ "About Me" | escape }}</a>
+       {%- endif -%}
+     </div>
      </div>
      <div class="table-contents">{{ content }}</div>
     </div>

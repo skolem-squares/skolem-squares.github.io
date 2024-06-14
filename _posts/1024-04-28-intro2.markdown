@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-text: "To understand Skolem Sequences, let’s first look at the closely-related Langford sequences. Here is a Langford sequence for the number 3: 312132. It is unique, though we could flip it around: 231213. We can also extend the pattern to include 4: 41312432. Can you spot the pattern? Hint - why are there two of each number?"
+text: "In order to understand Skolem Sequences, let us first look at the closely-related Langford sequences. Here is a Langford sequence for the number 3: 312132. It is unique, though we could flip it around: 231213. We can also extend the pattern to include 4: 41312432. Can you spot the pattern? Hint - why are there two of each number?"
 pic: /assets/langford.png
 permalink: /intro2/
 ---

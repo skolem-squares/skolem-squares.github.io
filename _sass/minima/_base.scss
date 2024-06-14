@@ -187,6 +187,12 @@ a {
     text-decoration: underline;
   }
 
+  &:focus {
+    color: yellow;
+    text-decoration: underline;
+  }
+
+
   .social-media-list &:hover {
     text-decoration: none;
 
