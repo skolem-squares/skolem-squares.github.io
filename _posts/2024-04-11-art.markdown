@@ -8,13 +8,13 @@ pic: /assets/pretty-puzzle-twilight.png
 permalink: /puzzle_art/
 link: Click here to see more Skolem art!
 ---
-<div class="page-wrap-text">Skolem Squares with horizontal, vertical or diagonal symmetry don't necessarily make for the best puzzles.
+<div class="page-wrap-text">In trying to fill Skolem Squares with as many non-zero entries as possible, I noticed a convergence to certain symmetric patterns.
 
-However, I found that when I allowed for symmetry the result could be visually pleasing.
+I did not think a symmetric Skolem Square would make for a very good puzzle, but the patterns were interesting and visually pleasing.
 
-So I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.
+I sampled colors from a matplotlib colorscheme at regular intervals and then assigned those colors to each number: 1, 2 and so on.
 
-<p>Twilight colorscheme:</p><img class="medsmall" src="/assets/colormap.jpeg">
+<p>Here is the twilight colorscheme used for the first image:</p><img class="medsmall" src="/assets/colormap.jpeg">
 
 </div>
 
@@ -23,7 +23,7 @@ So I sampled colors from a matplotlib colorscheme at regular intervals and assig
 <div class="page-wrap-art">
   <img id="art1" class="medsmall_img" src="/assets/art-page/pretty-puzzle-twilight.png">
 
-  <img id="art3" class="medsmall_img" src="/assets/art-page/pretty-puzzle-plasma.png">
+  <img id="art3" class="medsmall_img" src="/assets/art-page/pretty-puzzle-viridis.png">
 
   <img id="art2" class="medsmall_img" src="/assets/art-page/pretty-puzzle-Spectral.png">
 </div>

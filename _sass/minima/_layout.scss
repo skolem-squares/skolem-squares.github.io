@@ -2,7 +2,9 @@
  * Site header
  */
 
-
+.half_img {
+max-width: 40%;
+}
 
 .small_img {
 max-width: 23%;
@@ -809,6 +811,7 @@ height: 100%;
 //  width: 45%;
   //max-width: 200px;
   text-align: left;
+  //white-space: pre-line;
  
 }
 

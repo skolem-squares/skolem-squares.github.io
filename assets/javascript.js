@@ -34,11 +34,11 @@
        }
 
         var img = document.getElementById('art3').src;
-        if (img.indexOf('pretty-puzzle-plasma.png')!=-1) {
-            document.getElementById('art3').src  = '/assets/art-page/pretty-puzzle-plasma_solved.png';
+        if (img.indexOf('pretty-puzzle-viridis.png')!=-1) {
+            document.getElementById('art3').src  = '/assets/art-page/pretty-puzzle-viridis_solved.png';
         }
          else {
-           document.getElementById('art3').src = '/assets/art-page/pretty-puzzle-plasma.png';
+           document.getElementById('art3').src = '/assets/art-page/pretty-puzzle-viridis.png';
        }
 
 

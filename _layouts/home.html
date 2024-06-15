@@ -30,6 +30,11 @@ layout: default
                     {{ post.text2 | escape }}
                 </div>
               {%- endif -%}
+              {%- if post.text3 != "" -%}
+                <div class="post-text">
+                    {{ post.text3 | escape }}
+                </div>
+              {%- endif -%}
               {%- if post.link != "" -%}
                 <a class="page-link" href="{{ post.url | relative_url }}">
                   {{ post.link | escape }}
