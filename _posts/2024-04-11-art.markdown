@@ -14,7 +14,7 @@ However, I found that when I allowed for symmetry the result could be visually p
 
 So I sampled colors from a matplotlib colorscheme at regular intervals and assigned those colors to each number: 1, 2 and so on.
 
-Twilight colorscheme: <img class="medsmall" src="/assets/colormap.jpeg">
+<p>Twilight colorscheme:</p><img class="medsmall" src="/assets/colormap.jpeg">
 
 </div>
 
@@ -27,4 +27,3 @@ Twilight colorscheme: <img class="medsmall" src="/assets/colormap.jpeg">
 
   <img id="art2" class="medsmall_img" src="/assets/art-page/pretty-puzzle-Spectral.png">
 </div>
-

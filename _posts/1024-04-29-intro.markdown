@@ -1,8 +1,8 @@
 ---
 layout: page
 title: ""
-text: "A Skolem Square is made up of an array of smaller squares, each with a number inside. In a Skolem Square, the numbers that form the rows and columns must themselves be Skolem sequences."
-text2: ""
+text: "A Skolem Square consists of an array of smaller squares, each with a number inside. In a Skolem Square, the numbers that form the rows and columns must themselves be Skolem sequences."
+text2: "There is a unique Skolem sequence for the numbers 1-4: 41134232. Can you spot the pattern? Hint - why are there two of each number?"
 pic: /assets/pretty-puzzle-allwhite.png
 permalink: /intro/
 ---

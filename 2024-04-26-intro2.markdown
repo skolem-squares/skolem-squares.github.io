@@ -1,8 +1,0 @@
----
-layout: page
-title: ""
-text: "Can you find the pattern in the sequence: 312132? How about 41312432?"
-text2: "These are called Langford sequences, Skolem Squares are built from the closely related Skolem sequences. To see the answer keep scrolling!"
-pic: /assets/pretty-puzzle-discrete_solved.png
-permalink: /first/
----

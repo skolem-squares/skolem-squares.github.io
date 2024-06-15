@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "" 
-text: "A property of Skolem Squares is that the small squares form the corners of a medium-sized square. The side length of that medium-sized square is equal to the value in the small squares plus one."
-text2: 
+title: ""
+text: "Let us visualize the Skolem Square with colors. The zeroes are blanks or empty spaces which are colored black." 
+text2: "We can see that the 1s, 2s and 3s all form the corners of a medium-sized square with side length equal to the value in the small squares plus one."
 permalink: /intro3/
 pic: /assets/pretty-puzzle-discrete_solved.png
 ---
+text: "A zero in a Skolem sequence is a blank or empty space, which I represent by coloring them black."
+"A property of Skolem Squares is that the small squares form the corners of a medium-sized square. The side length of that medium-sized square is equal to the value in the small squares plus one."
