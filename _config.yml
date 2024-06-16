@@ -23,12 +23,7 @@ title: Skolem Squares
 # name: Skolem Squares
 
 
-description: >- # this means to ignore newlines until "baseurl:"
-  A sudoku like game
-  #baseurl: /SkolemSquares # the subpath of your site, e.g. /blog
-  # baseurl: "" # the subpath of your site, e.g. /blog
-
-
+description: "A Sudoku-like number puzzle!"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: mstapylton
 linkedin_username: matthew-stapylton-249718121
