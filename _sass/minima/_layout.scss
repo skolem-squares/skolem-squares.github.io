@@ -91,7 +91,7 @@ max-width: 80;
   //min-width: 20 * $spacing-unit;
   //border-radius: 0;
   //border-bottom: .5px solid $wrap-border-color;
-  width: 90%;
+  width: 95%;
 
 }
 
@@ -110,7 +110,7 @@ max-width: 80;
 
 .table-contents {
   @include relative-font-size(1);
-  flex: 0 0 80%;
+  flex: 0 0 90%;
   //padding: 1 * $spacing-unit;
   //border: .5px solid $wrap-border-color;
   align-items: center;
@@ -146,7 +146,7 @@ max-width: 80;
   display: flex;
   flex: 1;
   background-color: $post_color;
-  margin: .25 * $spacing-unit;
+  margin: .1 * $spacing-unit;
   height: 3 * $spacing-unit;
 
   //width: 100%;
