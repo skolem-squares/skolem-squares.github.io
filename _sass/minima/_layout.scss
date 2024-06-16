@@ -110,7 +110,7 @@ max-width: 80;
 
 .table-contents {
   @include relative-font-size(1);
-  flex: 0 0 80%;
+  flex: 0 0 75%;
   //padding: 1 * $spacing-unit;
   //border: .5px solid $wrap-border-color;
   align-items: center;
