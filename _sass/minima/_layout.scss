@@ -82,7 +82,7 @@ max-width: 80;
 .background-table {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: stretch;
   //border: 1px solid $wrap-border-color;
   background-color: $wrapper_color;
@@ -147,7 +147,7 @@ max-width: 80;
   flex: 1;
   background-color: $post_color;
   margin: .25 * $spacing-unit;
-  max-height: 15%;
+  height: 3 * $spacing-unit;
 
   //width: 100%;
   //border-top: .5px solid $wrap-border-color;
