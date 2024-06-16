@@ -65,11 +65,12 @@ max-height: 20 * $spacing-unit;
 
 
 .example_img {
-//display: flex;
-//max-width: 70%;
-//max-width: 80%;
-//align-items: center;
 }
+
+.example_img_small {
+    padding: .2 * $spacing-unit;
+}
+
 
 .big_img {
   max-width: 100%;
@@ -595,7 +596,7 @@ height: 100%;
 
 .page-wrap8 {
   display: flex;
-  flex: 1 0 40%;
+  flex: 1 0 50%;
   padding: .25 * $spacing-unit;
   //border: 1px solid $wrap-border-color;
   margin: .5 * $spacing-unit;
@@ -608,7 +609,7 @@ height: 100%;
   align-items: center;
   justify-content: center;
   line-height: 1.5;
-  //max-width: 50%;
+  max-width: 70%;
  
 }
 
