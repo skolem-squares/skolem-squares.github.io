@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-text: "Let us visualize the Skolem Square with colors. The zeroes are blanks or empty spaces which are colored black." 
+text: "Skolem Squares are easier to visualize with colors. The zeroes are blanks or empty spaces which are colored black." 
 text2: "We can see that the 1s, 2s and 3s all form the corners of a medium-sized square with side length equal to the value in the small squares plus one."
 permalink: /intro3/
 pic: /assets/pretty-puzzle-discrete_solved.png
