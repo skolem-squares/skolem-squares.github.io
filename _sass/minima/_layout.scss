@@ -82,7 +82,7 @@ max-width: 80;
 .background-table {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: stretch;
   //border: 1px solid $wrap-border-color;
   background-color: $wrapper_color;
@@ -144,10 +144,20 @@ max-width: 80;
 
 .table-item {
   display: flex;
+  max-height: 3 * $spacing-unit;
+}
+
+.item-wrapper {
+  display: flex;
   flex: 1;
   background-color: $post_color;
   margin: .1 * $spacing-unit;
-  height: 3 * $spacing-unit;
+  align-items: center;
+  justify-content: center;
+  //height: 3 * $spacing-unit;
+  //margin-top: 25%;
+  //margin-bottom: 25%;
+
 
   //width: 100%;
   //border-top: .5px solid $wrap-border-color;
