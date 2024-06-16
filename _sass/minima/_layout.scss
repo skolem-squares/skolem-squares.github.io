@@ -131,6 +131,7 @@ max-width: 80;
    margin-left: .25 * $spacing-unit;
    margin-bottom: .25 * $spacing-unit;
    line-height: 1.2; 
+   padding: .25 * $spacing-unit;
 
    > img {
        margin-left: auto;
@@ -146,7 +147,7 @@ max-width: 80;
   flex: 1;
   background-color: $post_color;
   margin: .25 * $spacing-unit;
-
+  max-height: 15%;
 
   //width: 100%;
   //border-top: .5px solid $wrap-border-color;
@@ -160,7 +161,7 @@ max-width: 80;
   //display: flex;
   align-items: center;
   //color: $grey-color;
-  @include relative-font-size(.3);
+  @include increased-font-size(.1);
   //text-align: left;
 }
 
@@ -170,7 +171,7 @@ max-width: 80;
   //display: flex;
   align-items: center;
   //color: $grey-color;
-  @include relative-font-size(.3);
+  @include increased-font-size(.1);
   //text-align: left;
   text-decoration: underline;
   color: black !important;
@@ -713,7 +714,7 @@ height: 100%;
   width: 100%;
   text-align: left;
   white-space: pre-line;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 0;
   margin-left: .25 * $spacing-unit;
   }
@@ -770,7 +771,7 @@ height: 100%;
   // justify-content: space-between;
   // max-width: calc(100vw - (#{$spacing-unit} * 40));
  // max-width: 40%;
-  //min-width: 30%;
+  min-width: 40%;
   max-width: 80%;
 }
 

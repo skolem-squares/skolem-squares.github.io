@@ -15,10 +15,9 @@ I did not think a symmetric Skolem Square would make for a very good puzzle, but
 I sampled colors from a matplotlib colorscheme at regular intervals and then assigned those colors to each number: 1, 2 and so on.
 
 <p>Here is the twilight colorscheme used for the first image:</p><img class="medsmall" src="/assets/colormap.jpeg">
-
-</div>
-
+<br />
 <a href="#" onclick="toggleNumbers(); return false;"><button>View the puzzles with numbers</button></a>
+</div>
 
 <div class="page-wrap-art">
   <img id="art1" class="medsmall_img" src="/assets/art-page/pretty-puzzle-twilight.png">

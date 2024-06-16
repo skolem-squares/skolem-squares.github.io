@@ -44,6 +44,6 @@ For instance, hooked Skolem and Langford sequences allows zeroes or empty spots:
 Additionally, we can have a Skolem or Langford sequence that contains only a subset of <span class="math inline">1, 2...<em>n</em></span> such as: <span class="math inline">75311357</span>
 </p>
 <p>
-Skolem squares use both these properties, allowing 0s and a subset of <span class="math inline">1, 2..<em>n</em></span> in each row and column of the square.
+Skolem Squares use both these properties, allowing 0s and a subset of <span class="math inline">1, 2..<em>n</em></span> in each row and column of the square. I think the mathematics of Skolem Squares is worth exploring, in particular I find the convergence to <a href="/puzzle_art/">symmetric patterns</a> intriguing.
 </p>
 </div>

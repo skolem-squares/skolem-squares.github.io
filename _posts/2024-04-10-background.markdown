@@ -1,6 +1,6 @@
 ---
 layout: background
-title: Background
+title: Project
 permalink: /background/
 link: Click here for the backstory of this project!
 text: ""

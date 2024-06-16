@@ -13,10 +13,9 @@
 
      <div class="site-nav">
        {% if page.url == "/" %}
-         <div class="header-icon"><a class="post-link-active" href="{{ "/" | relative_url }}">Introduction</a></div>
+         <div class="header-icon"><a class="post-link-active" href="{{ "/" | relative_url }}">Intro</a></div>
        {% else %}
-         <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Introduction</a></div>
- 
+         <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Intro</a></div>
        {%- endif -%}
 
        {%- for post in site.posts -%}
