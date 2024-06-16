@@ -13,7 +13,7 @@ link: Click here to download printable puzzle pdfs!
 </div>
 
 <div class="page-wrap2"><center>Rules:</center>
-1. Skolem Squares columns and rows must all be Skolem sequences.
+1. Skolem Squares columns and rows must all be Skolem sequences. Each number has a partner in its row and column spaced apart by the number's value.
 
 2. A Skolem Square must contain each number from 1 to the largest which varies from puzzle to puzzle.
 
