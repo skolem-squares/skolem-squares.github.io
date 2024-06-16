@@ -13,6 +13,7 @@ $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvet
 //$base-font-multiplier: 16 + 2vw; /* Combine rem, vw, and vh */
 //$base-font-size:   $base-font-multiplier * 1px !default;
 $base-font-size:   12px !default;
+$small-font-size:   8px !default;
 //$font-multiplier: 3vw;
 //$base-font-size:   $font-multiplier * 1px !default;
 
@@ -112,6 +113,12 @@ $on-laptop:        800px !default;
   font-size: calc($base-font-size * $ratio + .5vw + .5vh);
   //line-height: calc($base-line-height * $ratio + .5vh);
 }
+
+@mixin increased-font-size($ratio) {
+  font-size: calc($small-font-size * $ratio + 1vw + 1vh);
+  //line-height: calc($base-line-height * $ratio + .5vh);
+}
+
 
 // Import partials.
 @import
