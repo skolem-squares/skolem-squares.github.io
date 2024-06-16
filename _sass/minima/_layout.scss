@@ -66,7 +66,7 @@ max-height: 20 * $spacing-unit;
 
 .example_img {
 //max-width: 70%;
-max-width: 80;
+max-width: 80%;
 }
 
 .big_img {
@@ -573,6 +573,26 @@ height: 100%;
   line-height: 1.5;
  
 }
+
+.page-wrap8 {
+  display: flex;
+  //flex: 1 0 40%;
+  width: 50%;
+  padding: .25 * $spacing-unit;
+  //border: 1px solid $wrap-border-color;
+  margin: .5 * $spacing-unit;
+  background-color: $post-color;
+  vertical-align: middle;
+  text-align: left;
+  height: fit-content;
+
+  //max-width: 30%;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+ 
+}
+
 
 .page-wrap0 {
   display: flex;
