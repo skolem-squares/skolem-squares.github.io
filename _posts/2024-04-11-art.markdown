@@ -9,13 +9,9 @@ permalink: /puzzle_art/
 link: Click here to see more Skolem art!
 ---
 <div class="page-wrap-text">In trying to fill Skolem Squares with as many non-zero entries as possible, I noticed a convergence to certain symmetric patterns.
-
 I did not think a symmetric Skolem Square would make for a very good puzzle, but the patterns were interesting and visually pleasing.
-
 I sampled colors from a matplotlib colorscheme at regular intervals and then assigned those colors to each number: 1, 2 and so on.
-
-<p>Here is the twilight colorscheme used for the first image:</p><img class="medsmall" src="/assets/colormap.jpeg">
-<br />
+<center>Here is the twilight colorscheme used for the first image:</center><img class="medsmall" src="/assets/colormap.jpeg"><br>
 <a href="#" onclick="toggleNumbers(); return false;"><button>View the puzzles with numbers</button></a>
 </div>
 

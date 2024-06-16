@@ -11,7 +11,7 @@ The code for [skolem-squares.github.io](https://github.com/skolem-squares/skolem
 I built the website using Jekyll, a static site generator with built in support for Github pages. Jekyll has useful features such as allowing Markdown, for loops and variables in HTML and templating for webpages.
 I started with the minima theme template [minima](https://github.com/jekyll/minima), which requires you to both import the theme and copy the files over.
 
-To style the website, I removed a fair amount of the minima theme's CSS and added Flexbox. Flexbox makes it easier to control subdivisions of a website such that different components are aligned and distributed correctly.
+To style the website, I removed a fair amount of the minima theme's CSS and added Flexbox. Flexbox makes it easier to control subdivisions of a website such that different components are aligned and distributed correctly. I also added a little javascript for underlining the current page, add numbers to the art Skolem squares.
 
 I typed up the math for the math pages in Latex. Then I used MathJax to convert the Latex to HTML.
 
