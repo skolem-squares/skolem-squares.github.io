@@ -1,7 +1,7 @@
 ---
 layout: background
 title: Project
-permalink: /background/
+permalink: /projbackground/
 link: Click here for the backstory of this project!
 text: ""
 pic: /assets/about-me.png

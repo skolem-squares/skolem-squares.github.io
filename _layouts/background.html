@@ -6,6 +6,15 @@ layout: default
      <div class="table-nav">
         <div class="item-wrapper">
           <div class="table-item">
+           {% if page.url == "/projbackground/" %}
+             <a class="table-link-active" href="{{ "/projbackground/" | relative_url }}">{{ "Project Background" | escape }}</a>
+           {% else %}
+             <a class="table-link" href="{{ "/projbackground/" | relative_url }}">{{ "Project Background" | escape }}</a>
+           {%- endif -%}
+          </div>
+        </div>
+        <div class="item-wrapper">
+          <div class="table-item">
            {% if page.url == "/design/" %}
              <a class="table-link-active" href="{{ "/design/" | relative_url }}">{{ "Puzzle Design" | escape }}</a>
            {% else %}
