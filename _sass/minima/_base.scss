@@ -19,7 +19,8 @@ details {
 
 
 button {
-@include relative-font-size(.5);
+@include relative-font-size(.75);
+//padding: .25 * $spacing
 
 }
 

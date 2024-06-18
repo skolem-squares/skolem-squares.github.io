@@ -9,14 +9,14 @@ pic: /assets/41134232.png
 <p>Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Thoralf Skolem in 1957 and 1958. Langford was inspired by watching his kid play with colored blocks, observing that there was one block between the red blocks, two blocks between the blue blocks and three blocks between the green blocks:</p>
 <img src="/assets/blocks.png">
 <p>
-Langford found sequences following this pattern for numbers: 4, 7, 8, 11, 12 and 15. However, he was unable to find sequences for 5, 6, 9 and 10. Langford’s problem asks the question for which <span class="math inline"><em>n</em></span> can Langford sequences be constructed.
-Here are a few Langford sequences for <span class="math inline"><em>n</em> = 3, 4</span> and <span class="math inline">7</span>:
+The sequence of blocks if replaced with numbers would read: 312132. Looking to extend this pattern, Langford looked for sequences consisting of numbers 1-4, 1-5 and so on. However, he only found sequences for numbers: 4, 7, 8, 11, 12 and 15 and was unable to find sequences for 5, 6, 9 and 10. Langford’s problem thus asks the question for which <span class="math inline"><em>n</em></span> can Langford sequences be constructed.
+Examples of a few Langford sequences for <span class="math inline"><em>n</em> = 3, 4</span> and <span class="math inline">7</span>:
 </p>
 <p style="text-align: center;">
 <span class="math inline">312132</span>, <span class="math inline">41312432</span>, <span class="math inline">45671415362732</span>
 </p>
 <p>
-Skolem sequences are similar, indexing at 0 instead of 1 for the numbers separating each pair. Here are a few Skolem sequences for <span class="math inline"><em>n</em> = 4, 5</span> and <span class="math inline">8</span>:
+Skolem sequences are similar, indexing at 0 instead of 1 for the numbers separating each pair. Examples of a few Skolem sequences for <span class="math inline"><em>n</em> = 4, 5</span> and <span class="math inline">8</span>:
 </p>
 <p style="text-align: center;">
 <span class="math inline">41134232</span>, <span class="math inline">5113453242</span>, <span class="math inline">8113673485647252</span>
@@ -26,7 +26,7 @@ A pattern emerges, for both Skolem and Langford sequences if <span class="math i
 </p>
 <p>
 To solve Langford’s problem conclusively however, we need to show that this pattern will be true for any <span class="math inline"><em>n</em> ∈ ℕ</span>. <a href="/skolem_proof/">
-Here is a solution for Skolem Sequences</a>. Langford sequences can be solved in a very similar manner.
+We can prove this for Skolem Sequences by considering the positions of each number.</a> Langford sequences can be solved in a very similar manner.
 </p>
 <p>
 <strong>Definition:</strong> Langford and Skolem sequences can both be generalized as follows:

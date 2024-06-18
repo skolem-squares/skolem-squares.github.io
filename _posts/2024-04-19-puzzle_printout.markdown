@@ -7,7 +7,7 @@ pic: /assets/8-10-10-puzzle-small.png
 link: Click here to download printable puzzle pdfs!
 ---
 
-<div class="page-wrap2">Largest number: 6 Difficulty: Easy<br>
+<div class="page-wrap2">7 x 7, Largest number: 5, Difficulty: Easy<br>
 <img class="print_img" src="/assets/download-page/5-7-7.png">
 <details markdown=block>
   <summary>Solution</summary>
@@ -20,7 +20,7 @@ link: Click here to download printable puzzle pdfs!
 <a href="#" onclick="printImage('/assets/download-page/5-7-7-printout.png'); return false;"><button>Print</button></a>
 </div>
 
-<div class="page-wrap2">Largest number: 6 Difficulty: Medium<br>
+<div class="page-wrap2">8 x 8, Largest number: 6 Difficulty: Medium<br>
 <img class="print_img" src="/assets/download-page/6-8-8.png">
 <details markdown=block>
   <summary>Solution</summary>
@@ -33,7 +33,7 @@ link: Click here to download printable puzzle pdfs!
 <a href="#" onclick="printImage('/assets/download-page/6-8-8-printout.png'); return false;"><button>Print</button></a>
 </div>
 
-<div class="page-wrap2">Largest number: 7 Difficulty: Hardm<br>
+<div class="page-wrap2">9 x 9, Largest number: 7, Difficulty: Hard<br>
 <img class="print_img" src="/assets/download-page/7-9-9.png">
 <details markdown=block>
 <summary markdown=span>Solution</summary>
@@ -46,7 +46,7 @@ link: Click here to download printable puzzle pdfs!
 <a href="#" onclick="printImage('/assets/download-page/7-9-9-printout.png'); return false;"><button>Print</button></a>
 </div>
 
-<div class="page-wrap2">Largest number: 8 Difficulty: Very Hard<br>
+<div class="page-wrap2">10 x 10, Largest number: 8, Difficulty: Very Hard<br>
 <img class="print_img" src="/assets/download-page/8-10-10.png">
 <details markdown=block>
 <summary markdown=span>Solution</summary>

@@ -147,16 +147,18 @@ max-height: 20 * $spacing-unit;
 
 .table-item {
   display: flex;
-  height: 3 * $spacing-unit;
+  height: 2 * $spacing-unit;
 }
 
 .item-wrapper {
   display: flex;
-  flex: 1;
+  //flex: 1;
   background-color: $post_color;
   margin: .1 * $spacing-unit;
   align-items: center;
   justify-content: center;
+  margin-bottom: .5 * $spacing-unit;
+
   //height: 3 * $spacing-unit;
   //margin-top: 25%;
   //margin-bottom: 25%;
