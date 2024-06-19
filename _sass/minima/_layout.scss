@@ -104,10 +104,14 @@ max-height: 20 * $spacing-unit;
   flex-direction: row;
   //flex: 1 0 100%;
   margin: .2 * $spacing-unit;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+
   //border-radius: 0;
   //border-left: .5px solid $wrap-border-color;
   //border-bottom: .5px solid $wrap-border-color;
@@ -151,7 +155,6 @@ max-height: 20 * $spacing-unit;
   display: flex;
   padding: .1 * $spacing-unit;
   flex-wrap: wrap;
-
   //height: 2 * $spacing-unit;
 }
 
@@ -159,7 +162,7 @@ max-height: 20 * $spacing-unit;
   display: flex;
   //flex: 1;
   background-color: $post_color;
-  margin: .1 * $spacing-unit;
+  margin: .2 * $spacing-unit;
   align-items: center;
   justify-content: center;
   margin-bottom: .5 * $spacing-unit;
