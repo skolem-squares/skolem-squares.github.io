@@ -28,6 +28,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: mstapylton
 linkedin_username: matthew-stapylton-249718121
 instagram_username: mapylton
+
+google_analytics: UA—XXXXXXXX-X
   # baseurl: /skolem-puzzle
 # Build settings
 theme: minima
