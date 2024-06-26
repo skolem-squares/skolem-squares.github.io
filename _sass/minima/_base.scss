@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  //margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -249,7 +249,7 @@ pre {
 }
 
 .footer-wrapper {
-  max-width: 50 * $spacing-unit;
+  max-width: 40 * $spacing-unit;
   
   min-height: $spacing-unit * 3;
   display: flex;
@@ -311,8 +311,7 @@ pre {
   justify-content: center;
   //justify-content: space-around;
   //justify-content: space-between;
-  max-width: 50 * $spacing-unit;
-  
+  max-width: 40 * $spacing-unit;
   background-color: $header-footer-color;
   //background-color: $wrapper_color;
 
@@ -357,10 +356,9 @@ pre {
   align-items: center;
   justify-content: center;
   //justify-content: space-evenly;
-  max-width: 50 * $spacing-unit;
-  
+  max-width: 40 * $spacing-unit;
   flex-grow: 2;
-  background-color: $wrapper_color;
+  //background-color: $wrapper_color;
   //border: 1px solid $wrap-border-color;
   //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 10));
   //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 10));

@@ -12,4 +12,4 @@ As a result, each number is a corner of a medium-sized square:
 <img src="/assets/pretty-puzzle-discrete_solved.png" class="med_img">
 
 Skolem Squares are built by adding the 4 numbers that make up the medium-sized square as a single unit, which I will call a Skolem entry.
-This [flowchart diagram](/flowchart/) illustrates how I use Skolem entries to build Skolem Squares.
+This <a class="inline-link" href="/flowchart/">flowchart diagram</a> illustrates how I use Skolem entries to build Skolem Squares.
