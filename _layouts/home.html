@@ -10,9 +10,7 @@ layout: default
   {{ content }}
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
-      <div class="subtitle-wrapper">
-          <p class="site-subtitle">A Sudoku-like number puzzle based on the mathematics of Skolem sequences.</p>
-      </div>
+      <div class="site-subtitle">A Sudoku-like number puzzle based on the mathematics of Skolem sequences.</div>
 
       {%- for post in site.posts -%}
         {%- if post.text != "" -%}
@@ -36,7 +34,7 @@ layout: default
                 </div>
               {%- endif -%}
               {%- if post.link != "" -%}
-                <a class="page-link" href="{{ post.url | relative_url }}">
+                <a class="inline-link" href="{{ post.url | relative_url }}">
                   {{ post.link | escape }}
                 </a>
               {%- endif -%}

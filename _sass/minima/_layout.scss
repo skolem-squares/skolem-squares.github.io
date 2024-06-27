@@ -258,23 +258,18 @@ height: 100%;
   //position: relative;
 }
 
-.subtitle-wrapper {
-
-  //height: fit-content;
-  display: inline-block;
-  vertical-align: top;
-  background-color: $wrapper-color; 
-  //margin-top: 2 * $spacing-unit;
-  margin-top: 1 * $spacing-unit;
-  //margin-bottom: 2 * $spacing-unit;
-  width: 80%;
-}
-
-
 .inline-link {
     color: #0000EE;
 }
 .site-subtitle {
+  display: inline-block;
+  vertical-align: top;
+  background-color: $wrapper-color; 
+  //margin-top: 2 * $spacing-unit;
+  margin-top: 2 * $spacing-unit;
+  //margin-bottom: 2 * $spacing-unit;
+  width: 80%;
+
   @include increased-font-size(1.5);
   //@include relative-line-height(1.2);
   line-height: $base-line-height * $base-font-size * 3;
@@ -540,6 +535,7 @@ height: 100%;
   justify-content: center;
   flex-wrap: wrap;
   width: 95%;
+  //padding-top: 2 * $spacing-unit;
   padding-top: calc(2 * $spacing-unit + 3vw);
   line-height: 1.4;
  
