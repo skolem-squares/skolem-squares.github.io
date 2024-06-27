@@ -1,8 +1,8 @@
 ---
 layout: page
 title: ""
-text: Now for the Skolem Square puzzle. Starting with only the blank zeroes, can you fill the correct number into each white square and find the unique solution?
-text2: "Each number 1, 2, ..., n needs to be somewhere in the puzzle, but not every row or column."
+text: A Skolem Square puzzle has the blank zeroes as a given. To solve it, fill the correct number into each white square and find the unique solution!
+text2: "Each number 1, 2, 3, ... side length - 2, needs to be somewhere in the puzzle, but not every row or column."
 permalink: /skolem_puzzle/
 pic: /assets/pretty-puzzle-none.png
 link: Continue reading to find out more and try the puzzles yourself!
