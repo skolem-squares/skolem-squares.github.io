@@ -439,8 +439,8 @@ height: 100%;
 .footer-col-2 {
   @include relative-font-size(.75);
   //font-size: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 
   //padding: .25 * $spacing-unit;
   //margin: 5px auto;
@@ -456,9 +456,15 @@ height: 100%;
   flex-direction: row;
   //margin-bottom: 5px auto;
   > ul {
-  margin: .3 * $spacing-unit;
+  //margin: .5 * $spacing-unit;
 
-  padding: 0 * $spacing-unit;
+  padding-left: .75 * $spacing-unit;
+  padding-right: .75 * $spacing-unit;
+
+  padding-top: .25 * $spacing-unit;
+  padding-bottom: .25 * $spacing-unit;
+
+
   }
 
 
@@ -539,8 +545,9 @@ height: 100%;
   flex-wrap: wrap;
   width: 95%;
   //padding-top: 2 * $spacing-unit;
-  padding-top: 9vw;
+  padding-top: min(9vw, 4 * $spacing-unit);
   line-height: 1.4;
+  //max-height: 10 * $spacing-unit;
  
 
   //margin: .5 * $spacing-unit;
@@ -911,7 +918,7 @@ height: 100%;
   justify-content: center;
  
   //color: $grey-color;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.25);
   text-align: center;
  
 }
@@ -923,7 +930,7 @@ height: 100%;
   justify-content: center;
  
   //color: $grey-color;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.25);
   text-align: center;
  
   //display: block;
