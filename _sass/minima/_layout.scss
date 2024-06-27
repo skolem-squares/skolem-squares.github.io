@@ -271,14 +271,14 @@ height: 100%;
   vertical-align: top;
   background-color: $wrapper-color; 
   //margin-top: 2 * $spacing-unit;
-  margin-top: 2 * $spacing-unit;
+  margin-top: min(5vw, 2 * $spacing-unit);
   //margin-bottom: 2 * $spacing-unit;
   width: 80%;
 
   @include relative-font-size(1.4);
   //@include relative-line-height(1.2);
   //line-height: $base-line-height * $base-font-size * 3;
-  line-height: 1;
+  line-height: 1.4;
 }
 
 .site-title {
