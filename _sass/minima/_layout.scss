@@ -278,7 +278,7 @@ height: 100%;
 
 .site-title {
 //  @include relative-font-size(1.625);
-  @include increased-font-size(6);
+  @include increased-font-size(5);
   //white-space:nowrap; 
   //@include relative-line-height(2);
 
@@ -301,6 +301,7 @@ height: 100%;
 
 .site-nav {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -918,7 +919,7 @@ height: 100%;
   justify-content: center;
  
   //color: $grey-color;
-  @include relative-font-size(1.25);
+  @include increased-font-size(1);
   text-align: center;
  
 }
@@ -930,7 +931,7 @@ height: 100%;
   justify-content: center;
  
   //color: $grey-color;
-  @include relative-font-size(1.25);
+  @include increased-font-size(1);
   text-align: center;
  
   //display: block;
