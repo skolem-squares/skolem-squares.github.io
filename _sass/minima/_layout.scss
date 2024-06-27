@@ -169,7 +169,7 @@ max-height: 20 * $spacing-unit;
   //display: flex;
   align-items: center;
   //color: $grey-color;
-  @include relative-font-size(1);
+  @include increased-font-size(1);
   //text-align: left;
 }
 
@@ -178,7 +178,7 @@ max-height: 20 * $spacing-unit;
   //display: flex;
   align-items: center;
   //color: $grey-color;
-  @include relative-font-size(1);
+  @include increased-font-size(1);
   //text-align: left;
   text-decoration: underline;
   color: black !important;
