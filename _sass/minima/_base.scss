@@ -167,8 +167,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  //color: $brand-color;
-  color: darken($brand-color, 25%);
+  color: $brand-color;
+  color: darken($brand-color, 10%);
+  //color: lighten($brand-color, 10%);
+ 
   //color: #0000EE;
   text-decoration: none;
 
@@ -286,10 +288,11 @@ pre {
   display: flex;
   //flex: 1;
   background-color: $wrapper_color;
-  margin: 1vw;
+  //margin: 1vw;
   align-items: center;
   justify-content: center;
   margin-bottom: .5 * $spacing-unit;
+  width: 30%;
 
   //height: 3 * $spacing-unit;
   //margin-top: 25%;

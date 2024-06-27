@@ -115,7 +115,7 @@ max-height: 20 * $spacing-unit;
 
   //border-radius: 0;
   //border-left: .5px solid $wrap-border-color;
-  border: 1px solid $wrap-border-color;
+  //border: 1px solid $wrap-border-color;
  }
 
 .table-contents {
@@ -125,6 +125,7 @@ max-height: 20 * $spacing-unit;
   //border: .5px solid $wrap-border-color;
   align-items: center;
   justify-content: center;
+  width: 90%;
  //flex: 1;
   //border-radius: 0;
   background-color: $post_color;
@@ -154,10 +155,11 @@ max-height: 20 * $spacing-unit;
 
 .table-item {
   display: flex;
-  padding: .4 * $spacing-unit;
+  //padding: .4 * $spacing-unit;
   //margin: .5 * $spacing-unit;
-
+  width: 100%;
   flex-wrap: wrap;
+  justify-content: center;
   //height: 2 * $spacing-unit;
 }
 
@@ -167,7 +169,7 @@ max-height: 20 * $spacing-unit;
   //display: flex;
   align-items: center;
   //color: $grey-color;
-  @include relative-font-size(1);
+  @include relative-font-size(1.25);
   //text-align: left;
 }
 
@@ -285,7 +287,8 @@ height: 100%;
   @include increased-font-size(5);
   //white-space:nowrap; 
   //@include relative-line-height(2);
-
+  //font-color: darken($brand-color, 10%);
+ 
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 3;
   letter-spacing: 1px;
@@ -551,10 +554,9 @@ height: 100%;
   flex-wrap: wrap;
   width: 95%;
   //padding-top: 2 * $spacing-unit;
-  padding-top: min(9vw, 4 * $spacing-unit);
-  line-height: 1.4;
+  padding-top: min(7vw, 3 * $spacing-unit);
+  line-height: 1.47;
   //max-height: 10 * $spacing-unit;
- 
 
   //margin: .5 * $spacing-unit;
 
