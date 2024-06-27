@@ -111,7 +111,7 @@ $on-laptop:        800px !default;
 
 
 @mixin relative-font-size($ratio) {
-  font-size: calc($base-font-size * $ratio + .5vw + .5vh);
+  font-size: calc($base-font-size * $ratio + .7vw + .7vh);
   //line-height: calc($base-line-height * $ratio + .5vh);
 }
 
