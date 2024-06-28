@@ -283,7 +283,7 @@ height: 100%;
 
 .site-title {
 //  @include relative-font-size(1.625);
-  @include increased-font-size(5);
+  @include title-font-size(5);
   //white-space:nowrap; 
   //@include relative-line-height(2);
   //font-color: darken($brand-color, 10%);

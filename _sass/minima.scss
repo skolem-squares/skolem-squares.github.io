@@ -116,14 +116,20 @@ $on-laptop:        800px !default;
 
 
 @mixin relative-font-size($ratio) {
-  font-size: calc($base-font-size * $ratio + .7vw + .7vh);
+  font-size: min(35px, calc($base-font-size * $ratio + .7vw + .7vh));
   //line-height: calc($base-line-height * $ratio + .5vh);
 }
 
 @mixin increased-font-size($ratio) {
-  font-size: calc($small-font-size * $ratio + 1vw + 1vh);
+  font-size: min(35px, calc($small-font-size * $ratio + 1vw + 1vh));
   //line-height: calc($base-line-height * $ratio + .5vh);
 }
+
+@mixin title-font-size($ratio) {
+  font-size: min(60px, calc($small-font-size * $ratio + 1vw + 1vh));
+  //line-height: calc($base-line-height * $ratio + .5vh);
+}
+
 
 
 // Import partials.

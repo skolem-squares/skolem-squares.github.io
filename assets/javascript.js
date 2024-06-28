@@ -41,6 +41,13 @@
            document.getElementById('art3').src = '/assets/art-page/pretty-puzzle-viridis.png';
        }
 
+        var img = document.getElementById('art4').src;
+        if (img.indexOf('pretty-puzzle-cool.png')!=-1) {
+            document.getElementById('art4').src  = '/assets/art-page/pretty-puzzle-cool_solved.png';
+        }
+         else {
+           document.getElementById('art4').src = '/assets/art-page/pretty-puzzle-cool.png';
+       }
 
 
     }

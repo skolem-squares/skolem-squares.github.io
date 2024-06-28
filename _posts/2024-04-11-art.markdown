@@ -12,9 +12,12 @@ link: Click here to see more Skolem art!
 <div class="page-wrap-art">
   <img id="art1" class="medsmall_img" src="/assets/art-page/pretty-puzzle-twilight.png">
 
-  <img id="art3" class="medsmall_img" src="/assets/art-page/pretty-puzzle-viridis.png">
+  <img id="art4" class="medsmall_img" src="/assets/art-page/pretty-puzzle-cool.png">
 
   <img id="art2" class="medsmall_img" src="/assets/art-page/pretty-puzzle-Spectral.png">
+
+  <img id="art3" class="medsmall_img" src="/assets/art-page/pretty-puzzle-viridis.png">
+
 </div>
 
 <div class="page-wrap-text">In trying to fill Skolem Squares with as many non-zero entries as possible, I noticed a convergence to certain symmetric patterns.
