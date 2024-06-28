@@ -631,7 +631,6 @@ height: 100%;
   justify-content: center;
   line-height: 1.5;
   max-width: 70%;
- 
 }
 
 
@@ -654,7 +653,7 @@ height: 100%;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.5;
-   max-width: 80%;
+  max-width: 95%;
  
 }
 
@@ -666,7 +665,7 @@ height: 100%;
   //border: 1px solid $wrap-border-color;
   margin: .25 * $spacing-unit;
   margin-bottom: 1.5 * $spacing-unit;
-  max-width: 80%;
+  max-width: 95%;
   line-height: 1.5;
  
   background-color: $post-color;
@@ -690,7 +689,7 @@ height: 100%;
   //border: 1px solid $wrap-border-color;
   //margin: .25 * $spacing-unit;
   //margin-bottom: 1.5 * $spacing-unit;
-  max-width: 80%;
+  max-width: 95%;
   line-height: 1.5;
  
   background-color: $post-color;
@@ -725,7 +724,7 @@ height: 100%;
   margin: .25 * $spacing-unit;
   background-color: $post-color;
   vertical-align: middle;
-  max-width: 80%;
+  max-width: 95%;
   line-height: 1.5;
  
 
@@ -743,7 +742,7 @@ height: 100%;
   margin: .25 * $spacing-unit;
   background-color: $post-color;
   vertical-align: middle;
-  max-width: 80%;
+  max-width: 95%;
   white-space: pre-line;
   line-height: 1.5;
  
@@ -778,7 +777,7 @@ height: 100%;
   margin: .25 * $spacing-unit;
   background-color: $post-color;
   vertical-align: middle;
-  max-width: 80%;
+  max-width: 95%;
   white-space: wrap;
 
  > p {
