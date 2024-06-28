@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $brand-color;
-  color: darken($brand-color, 10%);
+  //color: darken($brand-color, 10%);
   //color: lighten($brand-color, 10%);
  
   //color: #0000EE;
@@ -180,7 +180,9 @@ a {
 
   &:active {
     //color: lighten($brand-color, 15%);
-    color: #FF0000;
+   // color: #FF0000;
+    color: darken($brand-color, 10%);
+ 
     text-decoration: underline;
   }
 

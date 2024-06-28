@@ -20,7 +20,7 @@ link: Click here to see more Skolem art!
 
 </div>
 
-<div class="page-wrap-text">In trying to fill Skolem Squares with as many non-zero entries as possible, I noticed a convergence to certain symmetric patterns.
+<div class="page-wrap-text">As Skolem Squares get closer to having only non-zero entries, they seem to converge to certain symmetric patterns.
 
 I did not think a symmetric Skolem Square would make for a very good puzzle, but the patterns were interesting and visually pleasing.
 
