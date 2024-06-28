@@ -552,7 +552,7 @@ height: 100%;
   flex-wrap: wrap;
   width: 95%;
   //padding-top: 2 * $spacing-unit;
-  padding-top: min(7vw, 3 * $spacing-unit);
+  padding-top: min(7.5vw, 3.5 * $spacing-unit);
   line-height: 1.47;
   //max-height: 10 * $spacing-unit;
 
@@ -823,13 +823,13 @@ height: 100%;
   background-color: $post-color;
   //border: 1px solid $wrap-border-color;
 
-  padding: .5 *  $spacing-unit;
+  //padding: .5 *  $spacing-unit;
   //margin-top: 1 * $spacing-unit;
-  margin-bottom: .5 * $spacing-unit;
+  //margin-bottom: .5 * $spacing-unit;
 
   //margin-top: 1 * $spacing-unit;
   //line-height: 1.2;
- 
+
   display: flex;
   flex: 1 0 40%;
 
@@ -850,8 +850,6 @@ height: 100%;
 
 
 .post-wrap2 {
- 
-
   //background-color: $post-color;
   //border: 1px solid $wrap-border-color;
 
