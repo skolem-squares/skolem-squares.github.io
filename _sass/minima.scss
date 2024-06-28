@@ -126,7 +126,7 @@ $on-laptop:        800px !default;
 }
 
 @mixin title-font-size($ratio) {
-  font-size: min(60px, calc($small-font-size * $ratio + 1vw + 1vh));
+  font-size: min(60px, calc($small-font-size * $ratio + 2vw + 2vh));
   //line-height: calc($base-line-height * $ratio + .5vh);
 }
 
