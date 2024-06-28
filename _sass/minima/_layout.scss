@@ -18,7 +18,7 @@ max-height: 6.5 * $spacing-unit;
 }
 
 .smallish_img {
-max-width: 20%;
+max-width: max(25%, 200px);
 
 }
 
