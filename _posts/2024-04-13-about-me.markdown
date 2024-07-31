@@ -12,6 +12,6 @@ I was immediately taken with these sequences, they reminded me of the Sudoku, <a
 
 After college I worked for a software company where I learned about websites and how to troubleshoot code. Then I worked for a couple labs where I gained experience working with genetics and healthcare data.
 
-It feels like all I've learned has come together for this project, and I'm ecstatic to start sharing Skolem Square puzzles.
+It feels like all I've learned has come together for this project, and I'm ecstatic to start sharing Skolem square puzzles.
 
 <img class="smallish_img" src="/assets/pic-of-me.jpg">

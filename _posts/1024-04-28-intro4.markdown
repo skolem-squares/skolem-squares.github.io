@@ -1,9 +1,9 @@
 ---
 layout: page
 title: ""
-text: "A sequence of numbers is a Skolem sequence if two conditions are met:"
-text2: "1. There are exactly two of each number, forming a pair."
-text3: "2. The distance between each pair of numbers is equal to the value of those numbers. The 1s will be 1 space apart, the 2s will be 2 spaces apart and so on."
+text: "Skolem sequences follow two rules:"
+text2: "1. There are two of each number, a pair of 1s, 2s and so on."
+text3: "2. Pairs of numbers are spaced apart by their value, 1s are 1 apart, 2s are 2 apart, etc."
 permalink: /intro4/
 pic: /assets/41134232.png
 ---

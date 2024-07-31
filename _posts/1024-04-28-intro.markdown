@@ -1,0 +1,19 @@
+---
+layout: page
+title: ""
+text: "Skolem squares follow two rules too:"
+text2: "1. Each column and row can have any subset of 0, 1, 2 and so on."
+text3: "2. Each column and row's non-zero entries follow the rules of Skolem sequences."
+pic: /assets/pretty-puzzle-allwhite.png
+permalink: /intro/
+---
+text: "Skolem squares have columns and rows that are hooked Skolem sequences which allow for 0s as empty or blank spots."
+
+
+recent-text: "A Skolem square consists of an array of smaller squares, each with a number inside. In a Skolem square, the numbers that form the rows and columns must themselves be Skolem sequences."
+p
+
+text2: "There is a unique Skolem sequence for the numbers 1-4: 41134232. Can you spot the pattern? Hint - why are there two of each number?"
+
+text: "Skolem squares are puzzles solved by filling in the white squares with numbers 1, 2, ...n where n is the largest allowed number. Each row and column can have at most two of any number."
+text2: In addition, each row and column in the Skolem square must be a Skolem sequence, more on that below!
