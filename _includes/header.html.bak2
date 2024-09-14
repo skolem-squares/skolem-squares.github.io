@@ -1,0 +1,41 @@
+<header class="site-header" role="banner">
+
+  <div class="header-wrapper">
+
+    <div class="title-item">
+      <img src="/assets/header-pic.png" class="small_img">
+      <div class="web-title">
+       <p class="site-title">Skolem Squares</p>
+     </div>
+      <img src="/assets/header-pic.png" class="small_img">
+    </div>
+
+
+     <div class="site-nav">
+       {% if page.url == "/" %}
+         <div class="header-icon dropdown">
+            <a class="post-link-active" href="{{ "/" | relative_url }}">Intro</a>
+            <div class="dropdown-content">
+                <a href="#">Internet Explorer</a>
+                <a href="#">Office</a>
+            </div>
+         </div>
+       {% else %}
+         <div class="header-icon"><a class="post-link" href="{{ "/" | relative_url }}">Intro</a></div>
+       {%- endif -%}
+
+       {%- for post in site.pages -%}
+           {%- if post.title != "" -%}
+             {% if post.layout == 'page' %}
+               {% if post.url == page.url %}
+                    <div class="header-icon"><a class="post-link-active" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+               {% else %}
+                    <div class="header-icon"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+               {%- endif -%}
+             {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+    </div>
+
+
+</header>

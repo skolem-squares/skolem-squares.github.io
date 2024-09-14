@@ -48,14 +48,14 @@ p {
  * Basic styling
  */
 //home {
-//  align: "center";
+  //align: "center";
 //}
  
 body {
   //@include relative-font-size(1);
   //font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   //font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
- 
+  z-index: 1;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -95,6 +95,10 @@ ul, ol, dl, figure,
 main {
   //height: 100vh;
   display: flex;
+  z-index: 1;
+  position: relative;
+
+
   //display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
@@ -109,6 +113,7 @@ img {
   vertical-align: middle;
   margin: 0;
   display: block;
+  z-index: 1;
 }
 
 
@@ -309,6 +314,9 @@ pre {
 }
 
 .header-wrapper {
+
+  z-index: 2;
+  position: relative;
   display: flex;
   flex-direction: column; 
   align-items: center;
@@ -369,7 +377,8 @@ pre {
   //max-width: 80vw;
   width: 85vw;
   //min-height: 100vw;
- 
+
+
   //margin-right: auto;
   //margin-left: auto;
   //padding-right: $spacing-unit;

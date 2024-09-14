@@ -1,0 +1,11 @@
+---
+layout: page
+title: "true"
+text: "In this example, the numbers 1, 2 and 3 fill the available spots."
+permalink: /intro2/
+pic: /assets/pretty-puzzle-discrete_solved.png
+---
+text: "Here is the only way to fill the puzzle with 1s, 2s and 3s to make a Skolem square:"
+p
+text: A Skolem square puzzle has the blank zeroes as a given. To solve it, fill the correct number into each white square and find the unique solution!
+text2: "Each number 1, 2, 3, ... side length - 2, needs to be somewhere in the puzzle, but not every row or column."

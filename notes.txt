@@ -1,0 +1,81 @@
+Header:
+
+Puzzles
+Information
+Design
+Analysis
+Research
+
+About
+Puzzles
+Skolem
+Results
+
+
+Skolem Squares
+
+
+Puzzles
+  - 
+Background
+  - Math
+  - Project
+  - Me
+Design
+  - Concept
+  - Code
+  - Art 
+Research
+  - Algorithm
+  - Machine Learning
+
+
+
+Puzzles
+Background or Concept
+Research or Development
+Design
+
+
+
+Puzzles
+Math or no?
+Visualizations -- or Art or Design or Patterns
+Research
+Project or Background
+
+
+Final:
+Math
+Puzzles
+Project
+Research
+
+previously:
+
+Research
+Math
+Puzzles
+Background
+Design
+
+
+Header:
+
+multiple rows for links
+
+Intro
+Puzzles
+Math
+Algorithm
+Art
+Project -- Design + Code Base + Website + Next Steps
+About Me
+
+
+
+Project page - should tell a story
+
+Math  - include combinatorial designs
+
+

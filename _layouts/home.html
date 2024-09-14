@@ -8,11 +8,11 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-  {%- if site.posts.size > 0 -%}
+  {%- if site.pages.size > 0 -%}
     <ul class="post-list">
-      <div class="site-subtitle">An exciting new puzzle game that sudoku fans will thoroughly enjoy!</div>
-      {%- for post in site.posts -%}
-        {%- if post.text != "" -%}
+        <div class="site-subtitle">A fun and challenging number puzzle for fans of Sudoku and recreational math <br><br>How to play:</div>
+      {%- for post in site.pages -%}
+        {%- if post.title == "true" -%}
           <li>
             <div class="post-wrap">
               <div class="post-text">

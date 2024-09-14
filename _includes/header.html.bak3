@@ -10,9 +10,25 @@
       <img src="/assets/header-pic.png" class="small_img">
     </div>
 
+
      <div class="site-nav">
+        <div class="header-icon dropdown">
+       {% if page.url == "/" %}
+            <a class="post-link-active" href="{{ "/" | relative_url }}">Intro</a>
+       {% else %}
+         <a class="post-link" href="{{ "/" | relative_url }}">Intro</a>
+       {%- endif -%}
+           <div class="dropdown-wrapper">
+             <div class="dropdown-content">
+                <a href="#">Internet Explorer</a>
+                <a href="#">Office</a>
+             </div>
+           </div>
+         </div>
+
+
        {%- for post in site.pages -%}
-           {%- if post.header == "true" -%}
+           {%- if post.title != "" -%}
              {% if post.layout == 'page' %}
                <div class="header-icon dropdown">
                    {% if post.url == page.url %}
@@ -32,4 +48,6 @@
           {%- endif -%}
         {%- endfor -%}
     </div>
+
+
 </header>
