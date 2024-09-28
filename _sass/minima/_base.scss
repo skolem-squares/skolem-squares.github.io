@@ -322,6 +322,7 @@ pre {
   z-index: 2;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
