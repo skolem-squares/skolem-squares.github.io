@@ -4,7 +4,7 @@ title: "true"
 text: "The larger the puzzle gets, the more difficult it is to narrow down the possibilities."
 text2: ""
 pic: /assets/0-none.png
-permalink: /intro2/
+permalink: /intro5/
 link: Continue reading to find out more and try the puzzles yourself!
 ---
 text: "A zero in a Skolem sequence is a blank or empty space, which I represent by coloring them black."

@@ -5,6 +5,9 @@ text: ""
 pic: /assets/pretty-puzzle-twilight.png
 permalink: /puzzle_art/
 link: Click here to see more Skolem art!
+group: "intro"
+forward: /skolem_sequences/
+back: /
 ---
 <a href="#" onclick="toggleNumbers(); return false;"><button>Display Skolem square numbers</button></a>
 <div class="page-wrap-art">

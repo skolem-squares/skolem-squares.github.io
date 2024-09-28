@@ -4,7 +4,7 @@ title: "true"
 text: "A Skolem square can be a puzzle:"
 text2: "1. Each puzzle starts with the zeroes represented as black squares."
 text3: "2. Each puzzle has a unique way that it can be filled with numbers 1, 2, and so on."
-permalink: /intro3/
+permalink: /intro1/
 pic: /assets/pretty-puzzle-none.png
 ---
 text: "Skolem squares are easier to visualize with colors. The zeroes are blanks or empty spaces which are colored black." 

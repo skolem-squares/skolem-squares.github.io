@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Background"
+title: "About"
 header: "true"
 permalink: /projbackground/
 link: Click here for the backstory of this project!
 pic: /assets/about-me.png
+group: "about"
 
 dropitems:
   - url: "/skolem_sequences/"

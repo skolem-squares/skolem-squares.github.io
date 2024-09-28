@@ -5,6 +5,9 @@ text: ""
 permalink: /puzzle_printout/
 pic: /assets/8-10-10-puzzle-small.png
 link: Click here to download printable puzzle pdfs!
+back: /example/
+forward: /skolem_puzzle/
+group: "puzzles"
 ---
 
 <div class="page-wrap2">7 x 7, Largest number: 5, Difficulty: Easy<br>

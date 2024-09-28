@@ -1,10 +1,13 @@
 ---
 layout: page
-title: "Design"
+title: "Intro"
 header: "true"
-permalink: /design/
+permalink: /
 link: Click here to see more information on how the puzzle was designed.
 pic: /assets/pretty-puzzle-discrete_solved.png
+group: "intro"
+forward: ""
+back: ""
 
 dropitems:
   - url: "/webdesign/"

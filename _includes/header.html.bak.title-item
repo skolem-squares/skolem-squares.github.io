@@ -6,15 +6,16 @@
        <p class="site-title">Skolem Squares</p>
     </div>
 
-    <div class="site-nav">
+    <div class="title-item">
         {%- for post in site.pages -%}
           {% if post.url == page.url %}
-            {% if post.back != "" %}
-              <a class="arrow-button" href="{{ post.back | relative_url }}">&larr;</a>
-            {%- endif -%}
+            <a class="arrow-button" href="{{ post.back | relative_url }}">&larr;</a>
           {%- endif -%}
         {%- endfor -%}
+    </div>
 
+
+    <div class="site-nav">
        {%- for post in site.pages -%}
            {%- if post.header == "true" -%}
              {% if post.layout == 'page' %}
@@ -35,12 +36,12 @@
               {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
+    </div>
 
+    <div class="title-item">
         {%- for post in site.pages -%}
           {% if post.url == page.url %}
-            {% if post.back != "" %}
-              <a class="arrow-button" href="{{ post.forward | relative_url }}">&rarr;</a>
-            {%- endif -%}
+            <a class="arrow-button" href="{{ post.forward | relative_url }}">&rarr;</a>
           {%- endif -%}
         {%- endfor -%}
     </div>

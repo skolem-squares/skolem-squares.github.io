@@ -4,6 +4,9 @@ title: ""
 text: ""
 permalink: /skolem_sequences/
 pic: /assets/41134232.png
+group: "intro"
+forward: /
+back: /puzzle_art/
 ---
 <div class="math-wrap">
 <p>Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Thoralf Skolem in 1957 and 1958. Langford was inspired by watching his kid play with colored blocks, observing that there was one block between the red blocks, two blocks between the blue blocks and three blocks between the green blocks:</p>

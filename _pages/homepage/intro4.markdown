@@ -5,7 +5,7 @@ text: "Skolem squares follow two rules too:"
 text2: "1. Each column and row can have any subset of 0, 1, 2 and so on."
 text3: "2. Each column and row's non-zero entries follow the rules of Skolem sequences."
 pic: /assets/pretty-puzzle-allwhite.png
-permalink: /intro/
+permalink: /intro4/
 ---
 text: "Skolem squares have columns and rows that are hooked Skolem sequences which allow for 0s as empty or blank spots."
 

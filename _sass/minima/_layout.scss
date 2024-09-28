@@ -2,6 +2,27 @@
  * Site header
  */
 
+.arrow-button {
+    @include big-font-size(2);
+    display: inline-block;
+    //padding: 10px;
+    //font-size: 60px;
+    //line-height: vh;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 100%;
+    margin-bottom: .4 * $spacing-unit;
+}
+
+.arrow-button:hover {
+    transform: translateX(5px); /* Slight movement to the right on hover */
+}
+
+
 .header-item {
 display: flex;
 flex-direction: column;
@@ -16,16 +37,6 @@ position: relative;
 //max-height: 100%;
 }
 
-.title-item {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-left: 2%;
-  margin-right: 2%;
-  padding-top: .5 * $spacing-unit;
-
-}
 
 
 .dropdown-content a:hover {
@@ -204,7 +215,6 @@ max-height: 20 * $spacing-unit;
    > ul {
        text-align: left;
    }
-  
   > p {
    width: 95%;
    text-align: left;
@@ -272,13 +282,14 @@ height: 100%;
 }
 
 .title-item {
-  width: 100%;
+  //width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-left: 2%;
-  margin-right: 2%;
-  padding-top: .5 * $spacing-unit;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-wrap: nowrap;
+  //padding-top: .5 * $spacing-unit;
 
   //padding-top: .5 * $spacing-unit;
   //padding-bottom: .5 * $spacing-unit;
@@ -380,13 +391,14 @@ height: 100%;
 
 .site-nav {
   display: flex;
+  flex: 2;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
-  //padding-top: .5 * $spacing-unit;
-  padding-bottom: .5 * $spacing-unit;
+  //width: %;
+  margin-top: .25 * $spacing-unit;
+  margin-bottom: .25 * $spacing-unit;
   //border: .5px solid $wrap-border-color;
 
 }
@@ -395,11 +407,11 @@ height: 100%;
 
 .header-icon {
   display: flex;
-  flex: 2 1 10%;
+  //flex: 2 1 10%;
   //border: 1px solid $wrap-border-color;
   vertical-align: middle;
-  padding: .2 * $spacing-unit;
-  margin: .1 * $spacing-unit;
+  //padding: .2 * $spacing-unit;
+  //margin: .1 * $spacing-unit;
 
 //  max-width: 5%;
   background-color: $button-color;

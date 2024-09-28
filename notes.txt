@@ -1,16 +1,11 @@
 Header:
 
+Intro
 Puzzles
-Information
-Design
-Analysis
-Research
-
 About
-Puzzles
-Skolem
-Results
 
+
+Data
 
 Skolem Squares
 

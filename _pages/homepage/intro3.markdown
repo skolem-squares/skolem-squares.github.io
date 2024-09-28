@@ -4,7 +4,7 @@ title: "true"
 text: "Skolem sequences follow two rules:"
 text2: "1. There are two of each number, a pair of 1s, 2s and so on."
 text3: "2. Pairs of numbers are spaced apart by their value, 1s are 1 apart, 2s are 2 apart, etc."
-permalink: /intro4/
+permalink: /intro3/
 pic: /assets/41134232.png
 ---
 Another way to think about Skolem sequences is that the pair of 1s will have 0 numbers between them, the 2s will have 1 number between them and so on.

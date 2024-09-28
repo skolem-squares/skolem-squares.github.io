@@ -4,6 +4,9 @@ title: ""
 text: ""
 permalink: /example/
 pic: /assets/blocks.png
+back: /skolem_puzzle/
+forward: /puzzle_printout/
+group: "puzzles"
 ---
 
 <div class="page-wrap8">

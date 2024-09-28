@@ -1,10 +1,12 @@
 ---
 layout: page
-title: "Puzzle"
+title: "Puzzles"
 header: "true"
 permalink: /skolem_puzzle/
 pic: /assets/8-10-10-puzzle-small.png
 link: Click here to download printable puzzle pdfs!
+forward: /example/
+group: "puzzles"
 
 dropitems:
   - url: "/example/"
