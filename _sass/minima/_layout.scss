@@ -15,8 +15,8 @@
     cursor: pointer;
     transition: transform 0.3s ease;
     //height: 100%;
-    padding-left: .5 * $spacing-unit;
-    padding-right: .5 * $spacing-unit;
+    padding-left: .25 * $spacing-unit;
+    padding-right: .25 * $spacing-unit;
 
 
 
@@ -410,8 +410,8 @@ height: 100%;
   min-width: 50%;
   //max-height: 40%;
   //width: %;
-  //margin-top: .25 * $spacing-unit;
-  //margin-bottom: .25 * $spacing-unit;
+  padding-top: .25 * $spacing-unit;
+  padding-bottom: .25 * $spacing-unit;
   //border: .5px solid $wrap-border-color;
 
 }
