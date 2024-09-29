@@ -3,7 +3,7 @@
  */
 
 .arrow-button {
-    @include big-font-size(.75);
+    @include big-font-size(1);
     display: inline-block;
     //padding: 10px;
     //font-size: 60px;
@@ -15,7 +15,8 @@
     cursor: pointer;
     transition: transform 0.3s ease;
     //height: 100%;
-    padding: .25 * $spacing-unit;
+    //padding: .25 * $spacing-unit;
+
 
     //height: .25 * $spacing-unit;
 }
