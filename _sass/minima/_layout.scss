@@ -3,7 +3,7 @@
  */
 
 .arrow-button {
-    @include big-font-size(2);
+    @include big-font-size(.75);
     display: inline-block;
     //padding: 10px;
     //font-size: 60px;
@@ -14,8 +14,9 @@
     border: none;
     cursor: pointer;
     transition: transform 0.3s ease;
-    height: 100%;
-    margin-bottom: .4 * $spacing-unit;
+    //height: 100%;
+    // margin-bottom: .4 * $spacing-unit;
+    //height: .25 * $spacing-unit;
 }
 
 .arrow-button:hover {
@@ -288,7 +289,13 @@ height: 100%;
   justify-content: space-evenly;
   margin-left: 3%;
   margin-right: 3%;
+  height: 50%;
+
   text-wrap: nowrap;
+
+  //padding-top: .25 * $spacing-unit;
+  //margin-bottom: .25 * $spacing-unit;
+
   //padding-top: .5 * $spacing-unit;
 
   //padding-top: .5 * $spacing-unit;
@@ -396,6 +403,7 @@ height: 100%;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  //max-height: 40%;
   //width: %;
   margin-top: .25 * $spacing-unit;
   margin-bottom: .25 * $spacing-unit;
