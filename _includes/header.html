@@ -10,7 +10,7 @@
         {%- for post in site.pages -%}
           {% if post.url == page.url %}
             {% if post.back != "" %}
-              <div class="arrow-button"><a href="{{ post.back | relative_url }}">◀</a></div>
+              <a class="arrow-button" href="{{ post.back | relative_url }}">◀</a>
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
@@ -39,7 +39,7 @@
         {%- for post in site.pages -%}
           {% if post.url == page.url %}
             {% if post.back != "" %}
-              <div class="arrow-button"><a href="{{ post.forward | relative_url }}">▶</a></div>
+              <a class="arrow-button" href="{{ post.forward | relative_url }}">▶</a>
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
