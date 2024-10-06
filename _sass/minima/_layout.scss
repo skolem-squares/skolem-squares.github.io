@@ -2,6 +2,107 @@
  * Site header
  */
 
+.post-list-heading {
+  @include relative-font-size(1.75);
+}
+
+.post-list {
+  @include relative-font-size(0.9375);
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+
+  align-items: center;
+  //width: 100%;
+  //margin: none;
+  margin: 5px auto;
+  //margin-top: 2 * $spacing-unit;
+
+  //align-items: flex-start;
+
+  justify-content: center;
+
+ //margin-left: 0;
+  //list-style: none;
+
+  > div {
+  flex: 1 0 40%;
+
+
+  // min-width: 40%;
+  max-width: 45%;
+  // max-width: 45%;
+  }
+  > ul {
+  display: flex;
+  //background-color: $wrapper_color;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+  //padding-top: 2 * $spacing-unit;
+  padding-top: min(7.5vw, 3.5 * $spacing-unit);
+  line-height: 1.47;
+  //max-height: 10 * $spacing-unit;
+
+  //margin: .5 * $spacing-unit;
+
+  //padding: .2 * $spacing-unit;
+  //width: fit-content;
+    //width: 35vw;
+    //width: 300px;
+  //max-width: 35%;
+    //min-width: 150px;
+    //margin-bottom: $spacing-unit;
+  }
+}
+
+
+.nutshell-expandable {
+    @include big-font-size(1);
+}
+
+
+.nutshell-bubble {
+    border: solid 0px;
+    min-width: 100%;
+}
+
+.nutshell-bubble-overflow {
+}
+
+.nutshell-bubble-overflow-section {
+    padding: 0em;
+    > div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+
+        > div {
+            padding-top: min(7.5vw, 3.5 * $spacing-unit);
+            max-width: 40%;
+            min-width: 40%;
+              }
+    }
+}
+
+
+
+.nutshell-bubble-overflow-embed-button {
+    display: none;
+}
+
+.nutshell-bubble-arrow {
+    display: none;
+}
+
+
 .arrow-button {
     @include big-font-size(1);
     display: inline-block;
@@ -367,7 +468,7 @@ height: 100%;
   //margin-top: 2 * $spacing-unit;
   margin-top: min(5vw, 2 * $spacing-unit);
   //margin-bottom: 2 * $spacing-unit;
-  width: 80%;
+  width: 100%;
 
   @include relative-font-size(1.2);
   //@include relative-line-height(1.2);
@@ -585,6 +686,7 @@ height: 100%;
  */
 .home {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -614,56 +716,6 @@ height: 100%;
 .page-heading {
 
   @include relative-font-size(2);
-}
-
-.post-list-heading {
-  @include relative-font-size(1.75);
-}
-
-.post-list {
-  @include relative-font-size(0.9375);
- 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0px;
-
-  align-items: center;
-  //width: 100%;
-  //margin: none;
-  margin: 5px auto;
-  //margin-top: 2 * $spacing-unit;
-
-  //align-items: flex-start;
-
-  justify-content: center;
-
- //margin-left: 0;
-  //list-style: none;
-
-  > li {
-  display: flex;
-  //background-color: $wrapper_color;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 95%;
-  //padding-top: 2 * $spacing-unit;
-  padding-top: min(7.5vw, 3.5 * $spacing-unit);
-  line-height: 1.47;
-  //max-height: 10 * $spacing-unit;
-
-  //margin: .5 * $spacing-unit;
-
-  //padding: .2 * $spacing-unit;
-  //width: fit-content;
-    //width: 35vw;
-    //width: 300px;
-  //max-width: 35%;
-    //min-width: 150px;
-    //margin-bottom: $spacing-unit;
-  }
 }
 
 .wrap-wrap {
