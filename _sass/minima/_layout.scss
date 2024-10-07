@@ -81,13 +81,14 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-
-
+        margin: 0;
 
         > div {
-            padding-top: min(7.5vw, 3.5 * $spacing-unit);
-            max-width: 40%;
-            min-width: 40%;
+            display: flex;
+            justify-content: center;
+            padding-top: min(6.5vw, 2.5 * $spacing-unit);
+            max-width: 50%;
+            min-width: 50%;
               }
     }
 }

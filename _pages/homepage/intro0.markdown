@@ -5,7 +5,7 @@ text: "A Skolem square can be a puzzle:"
 text2: "1. Each puzzle starts with the zeroes represented as black squares."
 text3: "2. Each puzzle has a unique way that it can be filled with numbers 1, 2, and so on."
 permalink: /intro1/
-pic: /assets/pretty-puzzle-none_solved.png
+pic: /assets/pretty-puzzle-none.png
 ---
 text: "Skolem squares are easier to visualize with colors. The zeroes are blanks or empty spaces which are colored black." 
 text2: "We can see that the 1s, 2s and 3s all form the corners of a medium-sized square with side length equal to the value in the small squares plus one."
