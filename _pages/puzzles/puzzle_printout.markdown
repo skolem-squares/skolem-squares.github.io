@@ -6,7 +6,7 @@ permalink: /puzzle_printout/
 pic: /assets/8-10-10-puzzle-small.png
 link: Click here to download printable puzzle pdfs!
 back: /example/
-forward: /skolem_puzzle/
+forward: /aboutme/
 group: "puzzles"
 ---
 

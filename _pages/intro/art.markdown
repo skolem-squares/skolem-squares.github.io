@@ -9,8 +9,14 @@ group: "intro"
 forward: /skolem_sequences/
 back: /
 ---
+
+<div class="page-wrap-text">
+<p>Skolem Squares come in many forms, here are a few visualized with colors.</p>
+<img class="split_img" src="/assets/intro/0-discrete_solved.png">
+</div>
 <a href="#" onclick="toggleNumbers(); return false;"><button>Display Skolem square numbers</button></a>
 <div class="page-wrap-art">
+
   <img id="art1" class="medsmall_img" src="/assets/art-page/pretty-puzzle-twilight.png">
 
   <img id="art4" class="medsmall_img" src="/assets/art-page/pretty-puzzle-cool.png">
@@ -19,13 +25,4 @@ back: /
 
   <img id="art3" class="medsmall_img" src="/assets/art-page/pretty-puzzle-viridis.png">
 
-</div>
-
-<div class="page-wrap-text">As Skolem squares get closer to having only non-zero entries, they seem to converge to certain symmetric patterns.
-
-I did not think a symmetric Skolem square would make for a very good puzzle, but the patterns were interesting and visually pleasing.
-
-I sampled colors from a matplotlib colorscheme at regular intervals and then assigned those colors to each number: 1, 2 and so on.
-
-<center>Here is the twilight colorscheme used for the first image:</center><img class="medsmall" src="/assets/colormap.jpeg">
 </div>

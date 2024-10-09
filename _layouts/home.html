@@ -8,18 +8,22 @@ layout: default
 
   {{ content }}
   {%- if site.pages.size > 0 -%}
-    <div class="site-subtitle">A fun and challenging number puzzle for fans of Sudoku and recreational math</div>
+    <div class="site-subtitle">A fun and challenging number puzzle for fans of Sudoku and recreational mathematics</div>
+    <div class="intro-pics">
+       <img class="split_img" src="/assets/intro/0-none.png">
+       <img class="split_img" src="/assets/intro/0-none_solved.png">
+    </div>
     <div class="post-list">
        <h1>:How to play:</h1>
         <a></a>
           {%- for post in site.pages -%}
             {%- if post.title == "true" -%}
+               <div>
                   <div class="post-text">
                       {{ post.text | escape }}
                   </div>
-                 <div class="post-wrap2">
-                     <img class="med_img" src="{{ post.pic | relative_url }}">
-                  </div>
+                  <img class="split_img" src="{{ post.pic | relative_url }}">
+               </div>
             {%- endif -%}
           {%- endfor -%}
     </div>

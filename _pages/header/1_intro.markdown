@@ -10,10 +10,10 @@ forward: ""
 back: ""
 
 dropitems:
-  - url: "/webdesign/"
-    name: Website Design
   - url: "/puzzle_art/"
-    name: Art
+    name: Skolem Squares
+  - url: "/skolem_sequences/"
+    name: Origin story
 ---
 When designed Skolem squares, simplicity was my guiding philosophy. I was partly inspired by games like Go, Chinese Checkers and Chess, puzzles like Sudoku, Kakuro and 2048. I liked the idea that the puzzle would start with nothing more than black, blank spaces and empty, white spaces.
 

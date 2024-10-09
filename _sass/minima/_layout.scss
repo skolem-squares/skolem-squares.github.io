@@ -2,6 +2,13 @@
  * Site header
  */
 
+.intro-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 .post-list-heading {
   @include relative-font-size(1.75);
 }
@@ -77,20 +84,28 @@
 .nutshell-bubble-overflow-section {
     padding: 0em;
     > div {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 0;
-
         > div {
             display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
             justify-content: center;
-            padding-top: min(6.5vw, 2.5 * $spacing-unit);
-            max-width: 50%;
-            min-width: 50%;
-              }
-    }
+            margin: 0;
+
+            > div {
+                display: flex;
+                justify-content: center;
+                max-width: 45%;
+                min-width: 45%;
+                white-space: pre-line;
+                height: 100%;
+                  }
+           > img {
+                max-width: max(30%, 5 * $spacing-unit);
+                padding: 2%;
+            }
+            padding-bottom: 4%;
+          }
+        }
 }
 
 
@@ -195,6 +210,13 @@ position: relative;
 max-width: 40%;
 }
 
+.split_img {
+max-width: max(40%, 6 * $spacing-unit);
+padding: 2%;
+
+}
+
+
 .small_img {
 max-width: 23%;
 max-height: 6.5 * $spacing-unit;
@@ -222,9 +244,10 @@ max-width: max(25%, 200px);
 
 
 .medsmall_img {
-  padding: .5 * $spacing-unit;
-  display: flex;
+  //padding: .5 * $spacing-unit;
+  //display: flex;
   flex: 0 0 25%;
+  //max-width: max(40%, 6 * $spacing-unit);
 
 
 }
@@ -460,14 +483,17 @@ height: 100%;
 }
 
 .inline-link {
+    display: inline;
     color: #0000EE;
+    white-space: wrap;
 }
 .site-subtitle {
   display: inline-block;
   vertical-align: top;
   background-color: $wrapper-color; 
   //margin-top: 2 * $spacing-unit;
-  margin-top: min(5vw, 2 * $spacing-unit);
+  margin-top: min(1.5vw, .75 * $spacing-unit);
+  margin-bottom: min(1.5vw, .75 * $spacing-unit);
   //margin-bottom: 2 * $spacing-unit;
   width: 100%;
 
@@ -553,8 +579,8 @@ height: 100%;
   // padding: 0 * $spacing-unit;
   text-align: center;
   padding-top:  min(5vw, 2 * $spacing-unit);
-  padding-bottom: min(5vw, 2 * $spacing-unit);
-  width: 85vw;
+  //padding-bottom: min(5vw, 2 * $spacing-unit);
+  width: 70vw;
 }
 
 .contact-list,
@@ -644,32 +670,36 @@ height: 100%;
 }
 
 .footer-col-2 {
-  @include relative-font-size(.75);
+  @include relative-font-size(1.5);
+
+  background-color: $header-footer-color;
   //font-size: 20px;
-  margin-left: 2%;
-  margin-right: 2%;
+  //margin-left: 2%;
+  //margin-right: 2%;
 
   //padding: .25 * $spacing-unit;
   //margin: 5px auto;
-  margin-top: .25 * $spacing-unit;
+  //margin-top: .25 * $spacing-unit;
   //height: 10%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 90%;
-  height: 20%;
+  height: 25%;
   //flex: 0 0 20%;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-bottom: .1 * $spacing-unit;
+
   //margin-bottom: 5px auto;
   > ul {
   //margin: .5 * $spacing-unit;
 
-  padding-left: .75 * $spacing-unit;
-  padding-right: .75 * $spacing-unit;
+  //padding-left: .75 * $spacing-unit;
+  //padding-right: .75 * $spacing-unit;
 
-  padding-top: .25 * $spacing-unit;
-  padding-bottom: .25 * $spacing-unit;
+  //padding-top: .25 * $spacing-unit;
+  //padding-bottom: .25 * $spacing-unit;
 
 
   }

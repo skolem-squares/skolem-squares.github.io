@@ -8,10 +8,14 @@ pic: /assets/about-me.png
 group: "about"
 
 dropitems:
-  - url: "/skolem_sequences/"
-    name: Math
   - url: "/aboutme/"
     name: About Me
+  - url: "/algorithm/"
+    name: Algorithm
+  - url: "/webdesign/"
+    name: Web Design
+  - url: "/projectcode/"
+    name: Code base
 ---
 skolem-squares.github.io will continue to be updated with new puzzles, art and more! If you'd like to be notified when new puzzles are available, send me a note in the form at the bottom of the page along with your email.
 

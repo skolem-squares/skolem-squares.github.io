@@ -5,11 +5,11 @@ text: ""
 permalink: /skolem_sequences/
 pic: /assets/41134232.png
 group: "intro"
-forward: /
+forward: /skolem_puzzle/
 back: /puzzle_art/
 ---
 <div class="math-wrap">
-<p>Skolem and Langford sequences were discovered independently by mathematicians Dudley Langford and Thoralf Skolem in 1957 and 1958. Langford was inspired by watching his kid play with colored blocks, observing that there was one block between the red blocks, two blocks between the blue blocks and three blocks between the green blocks:</p>
+<p>Skolem Squares are based on Skolem sequences. Skolem sequences and the closely related Langford sequences were discovered independently by mathematicians Dudley Langford and Thoralf Skolem in 1957 and 1958. Langford was inspired by watching his kid play with colored blocks, observing that there was one block between the red blocks, two blocks between the blue blocks and three blocks between the green blocks:</p>
 <img src="/assets/blocks.png">
 <p>
 The sequence of blocks if replaced with numbers would read: 312132. Looking to extend this pattern, Langford looked for sequences consisting of numbers 1-4, 1-5 and so on. However, he only found sequences for numbers 1 through 4, 7, 8, 11, 12 and 15 and was unable to find sequences for 5, 6, 9 and 10. Langford’s problem thus asks the question for which <span class="math inline"><em>n</em></span> can Langford sequences be constructed.
