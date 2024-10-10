@@ -252,7 +252,7 @@ max-width: max(25%, 200px);
 .medsmall_img {
   padding: .5 * $spacing-unit;
   //display: flex;
-  max-width: min(80%, 11 * $spacing-unit);
+  width: min(80%, 10 * $spacing-unit);
 
 }
 
