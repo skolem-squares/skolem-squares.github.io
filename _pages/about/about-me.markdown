@@ -6,11 +6,10 @@ link: Click here for the backstory of this project!
 text: "" 
 pic: /assets/about-me.png
 group: "about"
-forward: /algorithm/
+forward: /contact/
 back: /puzzle_printout/
 ---
-<div class="page-wrap-text">
-I first encountered Langford sequences in my freshman year of college. We were challenged to figure out the pattern in the sequence of numbers 312132 and from there see if we can find solutions for 1 through 4, 1 through 5 and so on.
+<div class="page-wrap-text">I first encountered Langford sequences in my freshman year of college. We were challenged to figure out the pattern in the sequence of numbers 312132 and from there see if we can find solutions for 1 through 4, 1 through 5 and so on.
 
 I was immediately taken with these sequences, they reminded me of the Sudoku, Ken-Ken and Kakuro puzzles I'd enjoyed for many years. I think this is a big part of what convinced me to be a Math major.
 

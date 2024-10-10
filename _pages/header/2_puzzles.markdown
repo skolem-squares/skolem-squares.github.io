@@ -9,10 +9,12 @@ forward: /example/
 group: "puzzles"
 
 dropitems:
+  - url: "/skolem_puzzle/"
+    name: Rules
   - url: "/example/"
-    name: Examples
+    name: Strategy 
   - url: "/puzzle_printout/"
-    name: Puzzle printouts
+    name: Downloads
 ---
 <div class="page-wrap2">Find the right numbers to put in the white squares such that the result is a unique Skolem square! <div class="page-wrap5"><img class="half_img" src="/assets/pretty-puzzle-none.png"><img class="half_img" src="/assets/pretty-puzzle-none_solved.png"></div></div>
 <div class="page-wrap2"><center>Rules:</center>

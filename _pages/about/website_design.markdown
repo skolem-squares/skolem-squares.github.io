@@ -9,8 +9,8 @@ group: "about"
 forward: "/projectcode/"
 back: "/algorithm/"
 ---
-<div class="page-wrap-text">
-<a class="inline-link" href="{{ "https://github.com/skolem-squares/skolem-squares.github.io" | relative_url }}">{{ "skolem-squares.github.io" | escape }}</a> is available on Github. Being able to host a website on Github has been useful but not without challenges.
+<br><a class="inline-link" href="{{ "https://github.com/skolem-squares/skolem-squares.github.io" | relative_url }}">{{ "skolem-squares.github.io" | escape }}</a>
+<div class="page-wrap-text">is available on Github. Being able to host a website on Github has been useful but not without challenges.
 
 I built the website using Jekyll, a static site generator with built in support for Github pages. Jekyll has useful features such as allowing Markdown, for loops and variables in HTML. I started with Jekyll's minima theme template since it gave me a good starting point that was still very flexible.
 

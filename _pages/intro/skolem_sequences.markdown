@@ -25,8 +25,8 @@ Skolem sequences are similar, indexing at 0 instead of 1 for the number of space
 <p style="text-align: center;">
 <span class="math inline">41134232</span>, <span class="math inline">5113453242</span>, <span class="math inline">8113673485647252</span>, <span class="math inline">478349357682529611</span>
 </p>
-<p>
-A pattern emerges, for both Skolem and Langford sequences if <span class="math inline"><em>n</em></span> is divisible by 4 then there are solutions. Langford sequences also appear to have solutions if after dividing <span class="math inline"><em>n</em></span> by 4 there is a remainder of 3 and Skolem sequences have solutions if the remainder is 1.
+<br>
+<h1>:More math for those inclined:</h1><a></a><p>For both Skolem and Langford sequences if <span class="math inline"><em>n</em></span> is divisible by 4 then there are solutions. Langford sequences also appear to have solutions if after dividing <span class="math inline"><em>n</em></span> by 4 there is a remainder of 3 and Skolem sequences have solutions if the remainder is 1.
 </p>
 <p>
 To solve Langford’s problem conclusively however, we need to show that this pattern will be true for any <span class="math inline"><em>n</em> ∈ ℕ</span>. <a class="inline-link" href="/skolem_proof/">

@@ -30,6 +30,7 @@
   //align-items: flex-start;
 
   justify-content: center;
+  padding-bottom: .5 * $spacing-unit;
 
  //margin-left: 0;
   //list-style: none;
@@ -83,7 +84,12 @@
 
 .nutshell-bubble-overflow-section {
     padding: 0em;
-    > div {
+   > div {
+        > p {
+            white-space: pre-line;
+            line-height: 1.5;
+            text-align: left;
+        }
         > div {
             display: flex;
             flex-direction: row;
@@ -211,7 +217,7 @@ max-width: 40%;
 }
 
 .split_img {
-max-width: max(40%, 6 * $spacing-unit);
+max-width: 40%;
 padding: 2%;
 
 }
@@ -246,9 +252,7 @@ max-width: max(25%, 200px);
 .medsmall_img {
   padding: .5 * $spacing-unit;
   //display: flex;
-  flex: 0 0 25%;
-  //max-width: max(40%, 6 * $spacing-unit);
-
+  max-width: 12 * $spacing-unit;
 
 }
 
@@ -670,7 +674,7 @@ height: 100%;
 }
 
 .footer-col-2 {
-  @include relative-font-size(1.5);
+  @include relative-font-size(1);
 
   background-color: $header-footer-color;
   //font-size: 20px;
@@ -690,6 +694,8 @@ height: 100%;
   flex-wrap: wrap;
   flex-direction: row;
   padding-bottom: .1 * $spacing-unit;
+  padding-top: .1 * $spacing-unit;
+
 
   //margin-bottom: 5px auto;
   > ul {
@@ -1172,7 +1178,7 @@ height: 100%;
   flex-grow: 1;
   //max-width: 600px;
 
-  margin: .5 * $spacing-unit;
+  ///margin: .5 * $spacing-unit;
   //min-height: calc(100vh - (#{$spacing-unit} * 6.5 * 1.865));
 
   h2 {
