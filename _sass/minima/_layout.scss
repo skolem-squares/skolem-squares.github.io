@@ -73,7 +73,9 @@
     @include big-font-size(1);
 }
 
-
+.nutshell-bubble-from {
+    display: none;
+}
 .nutshell-bubble {
     border: solid 0px;
     min-width: 100%;
@@ -217,7 +219,8 @@ max-width: 40%;
 }
 
 .split_img {
-max-width: 40%;
+min-width: 40%;
+max-width: 350px;
 padding: 2%;
 
 }
