@@ -9,6 +9,10 @@ back: /example/
 forward: /aboutme/
 group: "puzzles"
 ---
+<div class="page-wrap8">
+Download puzzles of varying difficulty levels! 
+</div>
+
 
 <div class="page-wrap2">7 x 7, Largest number: 5, Difficulty: Easy<br>
 <img class="print_img" src="/assets/download-page/5-7-7.png">
