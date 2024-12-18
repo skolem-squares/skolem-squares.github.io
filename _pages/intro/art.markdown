@@ -12,10 +12,6 @@ back: /
 <div class="page-wrap-text">
 <p>Skolem Squares can have interesting symmetries that are better visualized with colors.</p>
 </div>
-<div class="intro-pics">
-<img class="split_img" src="/assets/intro/0-discrete_solved.png"><img class="split_img" src="/assets/intro/1-discrete_solved.png">
-</div>
-<br>
 <a href="#" onclick="toggleNumbers(); return false;"><button>Display Skolem square numbers</button></a>
 <div class="page-wrap-art">
 
